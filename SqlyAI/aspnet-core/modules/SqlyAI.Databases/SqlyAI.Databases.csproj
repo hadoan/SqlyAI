@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Dapper" Version="2.0.123" />
+
+	  <ProjectReference Include="..\AppCommon\AppCommon.csproj" />
+	<PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.4" />
+	<PackageReference Include="MySql.Data" Version="8.0.31" />
+	<PackageReference Include="Npgsql" Version="7.0.1" />
+  </ItemGroup>
+
+</Project>
