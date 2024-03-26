@@ -10,6 +10,7 @@ namespace SqlyAI;
  */
 public abstract class SqlyAIAppService : ApplicationService
 {
+
     protected SqlyAIAppService()
     {
         LocalizationResource = typeof(SqlyAIResource);

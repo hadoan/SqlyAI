@@ -1,0 +1,16 @@
+﻿global using System;
+global using System.Linq;
+global using System.Linq.Dynamic.Core;
+global using System.Collections.Generic;
+global using System.Threading.Tasks;
+global using SqlyAI.Application.Db.Dtos;
+global using SqlyAI.Application.Dtos;
+global using Volo.Abp.Application.Dtos;
+global using Volo.Abp.Uow;
+global using Volo.Abp;
+global using Volo.Abp.Guids;
+global using DbType = AppCommon.Enums.DbType;
+global using Volo.Abp.Security.Encryption;
+global using Volo.Abp.Application.Services;
+global using AppCommon;
+global using Volo.Abp.MultiTenancy;

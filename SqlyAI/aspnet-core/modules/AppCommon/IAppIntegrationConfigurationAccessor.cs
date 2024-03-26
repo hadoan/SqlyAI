@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace App.Integrations
+namespace AppCommon
 {
     public interface IAppIntegrationConfigurationAccessor
     {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace App.Db
+﻿namespace AppCommon.Enums
 {
     public enum DbType
     {
@@ -16,8 +10,6 @@ namespace App.Db
         SQLite = 6,
         CSV = 7,
         GoogleSheet = 8,
-
-
 
         Unknown = 100,
 

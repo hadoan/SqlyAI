@@ -10,7 +10,7 @@
 	  <PackageReference Include="Dapper" Version="2.0.123" />
 
 	  <ProjectReference Include="..\AppCommon\AppCommon.csproj" />
-	<PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.4" />
+	<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
 	<PackageReference Include="MySql.Data" Version="8.0.31" />
 	<PackageReference Include="Npgsql" Version="7.0.1" />
   </ItemGroup>

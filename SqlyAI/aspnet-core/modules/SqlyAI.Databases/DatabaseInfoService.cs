@@ -1,15 +1,6 @@
 ﻿using SqlyAI.Databases.Dtos;
-using App.Db;
 using Dapper;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using DbType = App.Db.DbType;
+using AppCommon.Enums;
 
 namespace SqlyAI.Databases
 {
@@ -45,8 +36,8 @@ namespace SqlyAI.Databases
 
         public string GetSqlColumnType(string columnType)
         {
-            var type = ColumnType.ParseName(columnType);
-            switch (type.Name)
+            //var type = ColumnType.ParseName(columnType);
+            switch (columnType)
             {
                 case nameof(ColumnType.JSON):
                     return "nvarchar(max)";

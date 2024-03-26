@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Http.Client.IdentityModel" Version="8.0.4" />
-    <PackageReference Include="Volo.Abp.Autofac" Version="8.0.4" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="8.0.5" />
     <ProjectReference Include="..\..\src\SqlyAI.HttpApi.Client\SqlyAI.HttpApi.Client.csproj" />
   </ItemGroup>
 

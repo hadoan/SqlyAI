@@ -1,9 +1,10 @@
 ﻿
-using App.Integrations.Dtos;
+using AppCommon.Dtos;
+using AppCommon.Enums;
 using Dapper;
 using Microsoft.Data.SqlClient;
 using System.Data;
-using DbType = App.Db.DbType;
+using DbType = AppCommon.Enums.DbType;
 
 namespace SqlyAI.Databases
 {

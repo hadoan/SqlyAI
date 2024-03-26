@@ -9,16 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\SqlyAI.Integrations\SqlyAI.Integrations.csproj" />
     <ProjectReference Include="..\SqlyAI.Domain\SqlyAI.Domain.csproj" />
     <ProjectReference Include="..\SqlyAI.Application.Contracts\SqlyAI.Application.Contracts.csproj" /></ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="TSQL.Parser" Version="2.6.0" />
     <PackageReference Include="Volo.Abp.Account.Application" Version="8.0.4" />
     <PackageReference Include="Volo.Abp.Identity.Application" Version="8.0.4" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="8.0.4" />
+    <PackageReference Include="Volo.Abp.Security" Version="8.0.4" />
     <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.0.4" />
     <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="8.0.4" />
     <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="8.0.4" />
+	  <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="8.0.4" />
   </ItemGroup>
 
 </Project>

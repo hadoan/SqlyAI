@@ -1,31 +1,37 @@
-﻿//using System.ComponentModel.DataAnnotations.Schema;
-//using Abp.Domain.Entities.Auditing;
-//using Abp.Domain.Entities;
-//using System.Collections.Generic;
-//using Abp.Organizations;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+using System;
+using Volo.Abp.MultiTenancy;
+using Volo.Abp.Identity;
+using Volo.Abp.Domain.Entities.Auditing;
 
-//namespace App.Db
-//{
-//    [Table("Stories")]
-//    public class Story : FullAuditedEntity<long>, IMayHaveTenant, IMayHaveOrganizationUnit
-//    {
-//        public int? TenantId { get; set; }
-//        public virtual long? OrganizationUnitId { get; set; }
+namespace SqlyAI.Domain.Db
+{
+    [Table("Stories")]
+    public class Story : FullAuditedAggregateRoot<Guid>, IMultiTenant
+    {
+        protected Story() { }
+        public Story(Guid id)
+        {
+            this.Id = id;
+        }
+        public Guid? TenantId { get; set; }
+        public virtual long? OrganizationUnitId { get; set; }
 
-//        [ForeignKey("OrganizationUnitId")]
-//        public OrganizationUnit OrganizationUnit { get; set; }
+        [ForeignKey("OrganizationUnitId")]
+        public OrganizationUnit OrganizationUnit { get; set; }
 
-//        public virtual string Name { get; set; }
+        public virtual string Name { get; set; }
 
-//        public virtual string Description { get; set; }
+        public virtual string Description { get; set; }
 
-//        public virtual ICollection<Query> Queries { get; set; } = new List<Query>();
+        public virtual ICollection<Query> Queries { get; set; } = new List<Query>();
 
-//        public List<string> QueryTables { get; set; }
+        public List<string> QueryTables { get; set; }
 
-//        public virtual int? DatabaseId { get; set; }
+        public virtual Guid? DatabaseId { get; set; }
 
-//        [ForeignKey("DatabaseId")]
-//        public Database Database { get; set; }
-//    }
-//}
+        [ForeignKey("DatabaseId")]
+        public Database Database { get; set; }
+    }
+}

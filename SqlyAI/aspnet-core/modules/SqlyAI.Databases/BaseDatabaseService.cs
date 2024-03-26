@@ -1,8 +1,9 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using AppCommon.Enums;
+using Microsoft.Data.SqlClient;
 using MySql.Data.MySqlClient;
 using Npgsql;
 using System.Data;
-using DbType = App.Db.DbType;
+using DbType = AppCommon.Enums.DbType;
 
 namespace SqlyAI.Databases
 {

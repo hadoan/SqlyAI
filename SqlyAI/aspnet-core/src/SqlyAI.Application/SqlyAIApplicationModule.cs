@@ -6,6 +6,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
+using Volo.Abp.Security;
 
 namespace SqlyAI;
 
@@ -19,6 +20,7 @@ namespace SqlyAI;
     typeof(AbpFeatureManagementApplicationModule),
     typeof(AbpSettingManagementApplicationModule)
     )]
+    [DependsOn(typeof(AbpSecurityModule))]
     public class SqlyAIApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

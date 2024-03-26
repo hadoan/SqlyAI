@@ -1,5 +1,5 @@
-﻿using App.Db;
-using App.Integrations.Dtos;
+﻿using AppCommon.Dtos;
+using AppCommon.Enums;
 
 namespace SqlyAI.Databases
 {

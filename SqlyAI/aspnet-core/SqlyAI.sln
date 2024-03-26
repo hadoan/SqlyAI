@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlyAI.Databases", "modules
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCommon", "modules\AppCommon\AppCommon.csproj", "{A2F6B604-C450-4187-BB53-468C65AC16EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlyAI.Integrations", "modules\SqlyAI.Integrations\SqlyAI.Integrations.csproj", "{76BBA874-4AD1-47BD-AE5A-169487953BE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{A2F6B604-C450-4187-BB53-468C65AC16EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2F6B604-C450-4187-BB53-468C65AC16EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2F6B604-C450-4187-BB53-468C65AC16EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BBA874-4AD1-47BD-AE5A-169487953BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BBA874-4AD1-47BD-AE5A-169487953BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BBA874-4AD1-47BD-AE5A-169487953BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BBA874-4AD1-47BD-AE5A-169487953BE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +176,7 @@ Global
 		{748584B1-BA69-4F6A-81AA-F4BDE6BCE29D} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
 		{092A98F2-D436-4AD8-8679-44136411D7E5} = {0A03B118-41EE-4DC9-BC68-EDFA5C22A61F}
 		{A2F6B604-C450-4187-BB53-468C65AC16EB} = {0A03B118-41EE-4DC9-BC68-EDFA5C22A61F}
+		{76BBA874-4AD1-47BD-AE5A-169487953BE4} = {0A03B118-41EE-4DC9-BC68-EDFA5C22A61F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}

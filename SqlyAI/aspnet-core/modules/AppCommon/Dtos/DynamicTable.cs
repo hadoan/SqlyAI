@@ -1,8 +1,8 @@
-﻿using App.Db;
-using Ardalis.SmartEnum.JsonNet;
-using Newtonsoft.Json;
+﻿using AppCommon.Enums;
+using System;
+using System.Collections.Generic;
 
-namespace App.Integrations.Dtos
+namespace AppCommon.Dtos
 {
 
     public class DynamicTable : DynamicTable<int> { }
@@ -42,7 +42,6 @@ namespace App.Integrations.Dtos
         public string ColumnName { get; set; }
         public int Order { get; set; }
 
-        [JsonConverter(typeof(SmartEnumNameConverter<ColumnType, int>))]
         public ColumnType Type { get; set; }
 
     }

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\modules\AppCommon\AppCommon.csproj" />
     <ProjectReference Include="..\SqlyAI.Domain.Shared\SqlyAI.Domain.Shared.csproj" /></ItemGroup>
 
   <ItemGroup>
