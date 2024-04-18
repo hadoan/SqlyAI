@@ -11,7 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\SqlyAI.EntityFrameworkCore\SqlyAI.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\SqlyAI.Application.Tests\SqlyAI.Application.Tests.csproj" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.0.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
