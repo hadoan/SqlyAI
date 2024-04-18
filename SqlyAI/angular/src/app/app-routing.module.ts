@@ -2,12 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-    {
-        path: 'databases',
-        loadChildren: () => import('@sqly-aI/databases')
-            .then(m => m.DatabasesModule.forLazy())
-    },
-
   {
     path: '',
     pathMatch: 'full',

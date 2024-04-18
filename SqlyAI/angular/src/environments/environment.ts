@@ -6,24 +6,21 @@ export const environment = {
   production: false,
   application: {
     baseUrl,
-    name: 'SqlyAI',
+    name: 'SqyAI',
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44373/',
+    issuer: 'https://localhost:44342/',
     redirectUri: baseUrl,
-    clientId: 'SqlyAI_App',
+    clientId: 'SqyAI_App',
     responseType: 'code',
-    scope: 'offline_access SqlyAI',
+    scope: 'offline_access SqyAI',
     requireHttps: true,
   },
   apis: {
-    Databases: {
-      rootNamespace: 'SqlyAI.Databases',
-    },
     default: {
-      url: 'https://localhost:44373',
-      rootNamespace: 'SqlyAI',
+      url: 'https://localhost:44342',
+      rootNamespace: 'SqyAI',
     },
   },
 } as Environment;

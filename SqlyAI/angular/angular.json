@@ -2,14 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
     "analytics": false,
-    "schematicCollections": [
-      "@angular-eslint/schematics"
-    ]
+    "schematicCollections": ["@angular-eslint/schematics"]
   },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "SqlyAI": {
+    "SqyAI": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,20 +21,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/SqlyAI",
+            "outputPath": "dist/SqyAI",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "allowedCommonJsDependencies": [
-              "chart.js",
-              "js-sha256"
-            ],
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "allowedCommonJsDependencies": ["chart.js", "js-sha256"],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               {
                 "input": "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
@@ -159,10 +151,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "SqlyAI:build:production"
+              "buildTarget": "SqyAI:build:production"
             },
             "development": {
-              "buildTarget": "SqlyAI:build:development"
+              "buildTarget": "SqyAI:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -170,7 +162,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "SqlyAI:build"
+            "buildTarget": "SqyAI:build"
           }
         },
         "test": {
@@ -181,62 +173,15 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "src/**/*.ts",
-              "src/**/*.html"
-            ]
-          }
-        }
-      }
-    },
-    "databases": {
-      "projectType": "library",
-      "root": "projects/databases",
-      "sourceRoot": "projects/databases/src",
-      "prefix": "abp",
-      "architect": {
-        "build": {
-          "builder": "@angular-devkit/build-angular:ng-packagr",
-          "options": {
-            "tsConfig": "projects/databases/tsconfig.lib.json",
-            "project": "projects/databases/ng-package.json"
-          },
-          "configurations": {
-            "production": {
-              "tsConfig": "projects/databases/tsconfig.lib.prod.json"
-            }
-          }
-        },
-        "test": {
-          "builder": "@angular-builders/jest:run",
-          "options": {
-            "coverage": true,
-            "passWithNoTests": true
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/databases/tsconfig.lib.json",
-              "projects/databases/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
         }
       }
