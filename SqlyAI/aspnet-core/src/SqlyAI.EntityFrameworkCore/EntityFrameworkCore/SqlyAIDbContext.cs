@@ -1,9 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using SqlyAI.Books;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp.EntityFrameworkCore.Modeling;
 using Volo.Abp.FeatureManagement.EntityFrameworkCore;
 using Volo.Abp.Identity;
 using Volo.Abp.Identity.EntityFrameworkCore;
@@ -24,6 +26,9 @@ public class SqlyAIDbContext :
     ITenantManagementDbContext
 {
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
+
+     public DbSet<Book> Books { get; set; }
+
 
     #region Entities from the modules
 
@@ -64,6 +69,12 @@ public class SqlyAIDbContext :
         base.OnModelCreating(builder);
 
         /* Include modules to your migration db context */
+        builder.Entity<Book>(b =>
+        {
+            b.ToTable("Books");
+            b.ConfigureByConvention(); //auto configure for the base class props
+            b.Property(x => x.Name).IsRequired().HasMaxLength(128);
+        });
 
         builder.ConfigurePermissionManagement();
         builder.ConfigureSettingManagement();
