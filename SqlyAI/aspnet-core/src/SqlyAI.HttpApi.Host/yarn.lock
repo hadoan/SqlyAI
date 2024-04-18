@@ -5,42 +5,42 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@abp/aspnetcore.mvc.ui.theme.leptonxlite@npm:~3.0.3":
-  version: 3.0.4
-  resolution: "@abp/aspnetcore.mvc.ui.theme.leptonxlite@npm:3.0.4"
+"@abp/aspnetcore.mvc.ui.theme.leptonxlite@npm:~3.1.1":
+  version: 3.1.1
+  resolution: "@abp/aspnetcore.mvc.ui.theme.leptonxlite@npm:3.1.1"
   dependencies:
-    "@abp/aspnetcore.mvc.ui.theme.shared": ~7.2.1
-  checksum: 2b93794e392ae68653027b349bab8c6e8359930f4626b5c79e471c481d220bb643dbdbb6cc9e1d0e18eaefd4a5b2f6c46b8f24c47c136ede60b707f752020b0f
+    "@abp/aspnetcore.mvc.ui.theme.shared": ~8.1.1
+  checksum: 5775872c132f6608524f20a9e1f7d3ec52cd9ccc23b9c650ecff611599feb48b23603bcd11c43611e66eaa403a5e363d10bcec151ae41c3e686bda9024b9cbb4
   languageName: node
   linkType: hard
 
-"@abp/aspnetcore.mvc.ui.theme.shared@npm:~7.2.1":
-  version: 7.2.3
-  resolution: "@abp/aspnetcore.mvc.ui.theme.shared@npm:7.2.3"
+"@abp/aspnetcore.mvc.ui.theme.shared@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/aspnetcore.mvc.ui.theme.shared@npm:8.1.1"
   dependencies:
-    "@abp/aspnetcore.mvc.ui": ~7.2.3
-    "@abp/bootstrap": ~7.2.3
-    "@abp/bootstrap-datepicker": ~7.2.3
-    "@abp/bootstrap-daterangepicker": ~7.2.3
-    "@abp/datatables.net-bs5": ~7.2.3
-    "@abp/font-awesome": ~7.2.3
-    "@abp/jquery-form": ~7.2.3
-    "@abp/jquery-validation-unobtrusive": ~7.2.3
-    "@abp/lodash": ~7.2.3
-    "@abp/luxon": ~7.2.3
-    "@abp/malihu-custom-scrollbar-plugin": ~7.2.3
-    "@abp/moment": ~7.2.3
-    "@abp/select2": ~7.2.3
-    "@abp/sweetalert2": ~7.2.3
-    "@abp/timeago": ~7.2.3
-    "@abp/toastr": ~7.2.3
-  checksum: ddc80262b2cdfd4bbd53b6318955c6387c15e4c736235be54071c6934e8d568b83e4076e94282644c8ea2e6c022bd183c4ae48e53dbb86dd293e3b13aa6fdb0c
+    "@abp/aspnetcore.mvc.ui": ~8.1.1
+    "@abp/bootstrap": ~8.1.1
+    "@abp/bootstrap-datepicker": ~8.1.1
+    "@abp/bootstrap-daterangepicker": ~8.1.1
+    "@abp/datatables.net-bs5": ~8.1.1
+    "@abp/font-awesome": ~8.1.1
+    "@abp/jquery-form": ~8.1.1
+    "@abp/jquery-validation-unobtrusive": ~8.1.1
+    "@abp/lodash": ~8.1.1
+    "@abp/luxon": ~8.1.1
+    "@abp/malihu-custom-scrollbar-plugin": ~8.1.1
+    "@abp/moment": ~8.1.1
+    "@abp/select2": ~8.1.1
+    "@abp/sweetalert2": ~8.1.1
+    "@abp/timeago": ~8.1.1
+    "@abp/toastr": ~8.1.1
+  checksum: 4f7ddccb70ea1c009dde63f2973b056b9cc19a48b2fa1ba4375d321b7b4a6a039866832d2cf5f189188fa0bb4870e98c87b8b13547c1fe7e62d4c353c85ee568
   languageName: node
   linkType: hard
 
-"@abp/aspnetcore.mvc.ui@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/aspnetcore.mvc.ui@npm:7.2.3"
+"@abp/aspnetcore.mvc.ui@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/aspnetcore.mvc.ui@npm:8.1.1"
   dependencies:
     ansi-colors: ^4.1.1
     extend-object: ^1.0.0
@@ -48,209 +48,209 @@ __metadata:
     gulp: ^4.0.2
     merge-stream: ^2.0.0
     micromatch: ^4.0.2
-  checksum: da4fafb4189351234f65894f642adbbd40d97ae620489ca2d383ebb700b38365535a956305081ac173213504740a1deb51ede9772c5b7a9a205a6fe53d66c20d
+  checksum: a3e8f7f66b0f72b5ea0e52e02dc179cc870560d9e788f27716c0a56c41ac62893b1395667afed0934d7718d7cc568a75f735ed6325ff73ec390c65f3c9364c9c
   languageName: node
   linkType: hard
 
-"@abp/bootstrap-datepicker@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/bootstrap-datepicker@npm:7.2.3"
+"@abp/bootstrap-datepicker@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/bootstrap-datepicker@npm:8.1.1"
   dependencies:
     bootstrap-datepicker: ^1.9.0
-  checksum: ac7bd463a6969bc69015968bd113f28ef189890e30cd2bb3761f24d588a134ba30453a613585a5e698659820cd38a3abcb205718e571101698b76eaed9ef729b
+  checksum: d4cf48d31b10a2e027abd9dfd1d56dd2c3c37f35fea0c028e21fcee0c723f76836b432e0740508070755d9e031c9a9e113f82885cdd8536999317e480d2f7ef3
   languageName: node
   linkType: hard
 
-"@abp/bootstrap-daterangepicker@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/bootstrap-daterangepicker@npm:7.2.3"
+"@abp/bootstrap-daterangepicker@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/bootstrap-daterangepicker@npm:8.1.1"
   dependencies:
     bootstrap-daterangepicker: ^3.1.0
-  checksum: 8fce118b00c79c973f0af74e0b4daa11832112fa553ad9b5c770d1d091f9798bc76d79411e39b65a2d3b0081501a5ebcb842a99b9e5520c3f3b0051f026f9f41
+  checksum: 041ad0c6f628824ad7a364522630329e5cde27d0b63d6f9de6ec8460013961d4f0c11f16861f2c2f214f5541d6ef83494736b3197d6b75aab6c5ea10989c4597
   languageName: node
   linkType: hard
 
-"@abp/bootstrap@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/bootstrap@npm:7.2.3"
+"@abp/bootstrap@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/bootstrap@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     bootstrap: ^5.1.3
-  checksum: 9343801d298f9a719fb3e755c1db76fd0c90232d8b20555fadf1d695c549fab2e33bf4fbd7424358e41c26700771b97b01a9ca3e9a0115ce6cb9ab060c8645c3
+  checksum: c36d0d03becc82d77005f85c6fac4ed217ad040b82c74a1f9c9bf6613df3d281586e51c4a26a2cdbbb92d4a6fcb9beb6f4f943e00779fd54bac9eda46af4a397
   languageName: node
   linkType: hard
 
-"@abp/core@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/core@npm:7.2.3"
+"@abp/core@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/core@npm:8.1.1"
   dependencies:
-    "@abp/utils": ~7.2.3
-  checksum: ec4b4676563995595ca9850767299563ac14871b7bcaf6f66758179be34341241ad44e20408a3010098554d353d2813628c887bd55f4d9162f6b6d8237cf49e6
+    "@abp/utils": ~8.1.1
+  checksum: d84caf86543d45fd850b89aa15f69e7fa451e61510ec9fd4c563458b87247d25a7b2b8d965d383cfc30bf802a2e95ebc42bb03188ae0ab0d05d45ac5b2a01779
   languageName: node
   linkType: hard
 
-"@abp/datatables.net-bs5@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/datatables.net-bs5@npm:7.2.3"
+"@abp/datatables.net-bs5@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/datatables.net-bs5@npm:8.1.1"
   dependencies:
-    "@abp/datatables.net": ~7.2.3
+    "@abp/datatables.net": ~8.1.1
     datatables.net-bs5: ^1.11.4
-  checksum: 1e8f533be9a28d636b26d48706d93d342cbf71a9bc7db04ed6c8ca3059a96d823d1aa631d2a83dfb3dfe882853c6f731002f9725e09cb2d3f8209af7b6d221b9
+  checksum: b48fa87db2b068d120c200bd37b36ea91aa39324de8b5615fe481b9cebb960808c6d2979ea8f65d0d17b603d515bfbd2f47cf540a0e53742f1c72acd32c0c993
   languageName: node
   linkType: hard
 
-"@abp/datatables.net@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/datatables.net@npm:7.2.3"
+"@abp/datatables.net@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/datatables.net@npm:8.1.1"
   dependencies:
-    "@abp/jquery": ~7.2.3
+    "@abp/jquery": ~8.1.1
     datatables.net: ^1.11.4
-  checksum: 18cbdfb6432ad0de903ae9a2c0b101da6a22a03a83ce2d6b2964938cc4d1f2fecde7a95ed489b3c9e314f5c4fd310f67ad7f64300dacab4522b06c86a5562b01
+  checksum: 59ba4f8b2ac6d9a4513b409670103783b7879c33a696bff98267559ffac4557d84a3277ceafa2b15e0f5a8add05e6d297ffdf70d334af2a16d63bdd5d0c29d49
   languageName: node
   linkType: hard
 
-"@abp/font-awesome@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/font-awesome@npm:7.2.3"
+"@abp/font-awesome@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/font-awesome@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
-    "@fortawesome/fontawesome-free": ^5.15.4
-  checksum: 4a832405b52109c6d8d6042d07e26b50f9302f562a8babdb9798cb5d2f5db60334bd084f8e962200b50979f1f4c1af07142250892e205defc68dc18962764959
+    "@abp/core": ~8.1.1
+    "@fortawesome/fontawesome-free": ^6.5.1
+  checksum: 8a0d6ba60dc9ed9a09466ccfe45f711285a94ddb43c80f5876cd3928b8950f5b34825d89fe5b143ca8f2c9ea0c38c5694b1cb5355d743db7ba3bc9c67890e363
   languageName: node
   linkType: hard
 
-"@abp/jquery-form@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/jquery-form@npm:7.2.3"
+"@abp/jquery-form@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/jquery-form@npm:8.1.1"
   dependencies:
-    "@abp/jquery": ~7.2.3
+    "@abp/jquery": ~8.1.1
     jquery-form: ^4.3.0
-  checksum: dffec737a18fb904767450a2a4364eeb9ac70f919d5bf9e8057b963e0207c57355eb6aa8cf6ce3e2b2c93cedf23bfeb2496c1c44049a7f112a6b63b18fd9743a
+  checksum: 04ebefddc0d2ba0a0b234ac40e9af2c8caa5f15012de12af259307d445588e20786f29ba54dd119cf450d455eac8441fbde0b0717f983873fe9babdf10496789
   languageName: node
   linkType: hard
 
-"@abp/jquery-validation-unobtrusive@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/jquery-validation-unobtrusive@npm:7.2.3"
+"@abp/jquery-validation-unobtrusive@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/jquery-validation-unobtrusive@npm:8.1.1"
   dependencies:
-    "@abp/jquery-validation": ~7.2.3
+    "@abp/jquery-validation": ~8.1.1
     jquery-validation-unobtrusive: ^3.2.12
-  checksum: f6e0a81c0e58370c37a7aec23ce4286cd9b7d4f5c26256daf0fa5713c8d43bee2a9121629d0951019e8304446ed89fc839791c24638d1257595f93159c654f42
+  checksum: 9f911258c5530c591aa444111a14595ef2d1489878a1891d8ace647cba288b8bca84a945d0f50fc7280ae8fa29e95f074de0b81470565e280930edd2c30c967d
   languageName: node
   linkType: hard
 
-"@abp/jquery-validation@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/jquery-validation@npm:7.2.3"
+"@abp/jquery-validation@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/jquery-validation@npm:8.1.1"
   dependencies:
-    "@abp/jquery": ~7.2.3
+    "@abp/jquery": ~8.1.1
     jquery-validation: ^1.19.3
-  checksum: a16edd6c630c422f7a57c808cba1c94110115e3b62c9bd60324dc5f288f61cbfa5024f3d095fd49740af80a958dd0c944b84478d456ea3a500baedbf450d0f7d
+  checksum: 45a7c5f511419325064b920cd0661cabe9bf555a1d9f8e830ac4ef7e34d2af3a07e8bbb5014e1b35e1ecbe7c14fec3d1616b4696eae91223a75ad792189acbc3
   languageName: node
   linkType: hard
 
-"@abp/jquery@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/jquery@npm:7.2.3"
+"@abp/jquery@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/jquery@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     jquery: ~3.6.0
-  checksum: 0e7c8a4feb1e566f3addc82a55e3a6a2e2c28d482f71714f726b4f353e493a85ee64aa0323df3dc881ba48add6248f38f9c8f441f5d7838fafeff3d21ea352b0
+  checksum: 53ffbca8f3b83d886ea01b0a751cbf2774a4227b6f67db9f4462fbd5961d845570da342345a69c64f3d204c677d1787d84f07e834bb7ae0768442ff49a207723
   languageName: node
   linkType: hard
 
-"@abp/lodash@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/lodash@npm:7.2.3"
+"@abp/lodash@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/lodash@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     lodash: ^4.17.21
-  checksum: d339594588bc03166390a31c4ae011682d68700f0665ac1d077f192d3b52563fc30c6c4445b244f77cb9a67f5df98e7caa5200d901ffd3be1b6beace46540403
+  checksum: 0cc446ff01bd41c0f5d244774c395efc070e1631eab8c68fd35f5b1b7ad797c2adea5a47ea5eea99b770274364a66bf1b14e736c5a34c415624be42866dbc4d0
   languageName: node
   linkType: hard
 
-"@abp/luxon@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/luxon@npm:7.2.3"
+"@abp/luxon@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/luxon@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     luxon: ^2.3.0
-  checksum: 7b87e28b1a7e179b9132ddadb0fbc47365b774c78a2608689373c5c53aafb83ed203556facea15d58fdbed213f9044e2c8b1a8fc1d0a6837940f52e96c22810b
+  checksum: 46f0241a1e56df2a624c5b32d804f51a0b87f227b39fefede63989bf239f62d2ad456edabd283964e158400c37ccc5a69a2ba42bd6ad5ab237cff44198c41027
   languageName: node
   linkType: hard
 
-"@abp/malihu-custom-scrollbar-plugin@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/malihu-custom-scrollbar-plugin@npm:7.2.3"
+"@abp/malihu-custom-scrollbar-plugin@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/malihu-custom-scrollbar-plugin@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     malihu-custom-scrollbar-plugin: ^3.1.5
-  checksum: 5133d5f4cfb4a6184f25db80beb0efff363888002a2687d621f27d9c2629c41a7bc95787b8ed5551f282c4ca5714fcce77b3b246791dd55472658e1b1ffad615
+  checksum: 453d5f179c66ee7f56deb3bbc1e6c5a31e3ed7b0f9baaa88468166ff7b332eec867341e4d89c616e95262bc0221d8fc158d338af55811be028e330e4c658b80d
   languageName: node
   linkType: hard
 
-"@abp/moment@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/moment@npm:7.2.3"
+"@abp/moment@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/moment@npm:8.1.1"
   dependencies:
     moment: ^2.9.0
-  checksum: 91d267f9b9bed21d14e3c032fcad41016e14e3d694ff9c239bf14dc2ada24bbf9d9c8596499cb3afa069cc518f8204bc834ef31509714457e620906ec62a87dd
+  checksum: fd53dfe813b1ec714716baca2d57ee22dfbaaf21d9f7294914c3a458397e06ffdcfba0b009d841722344ed5267ee924438375a38f458ebd7a829532d699ca837
   languageName: node
   linkType: hard
 
-"@abp/select2@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/select2@npm:7.2.3"
+"@abp/select2@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/select2@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     select2: ^4.0.13
-  checksum: 7ef7530db27537f65f1a175dc31664ed97d214ae1dc1942fa7f38b5ab0cc3ce71887d97d895ac168d39407964aa6b3898d6003eae03b17060d302c9e50156274
+  checksum: 5a9eda7cd1a7a121564f70b3bdcab5d11503a422f5930e9e355174e1706c67cf0afe712905fbe6cd23e0feeb9782000eb4d7574eaa1190aaba721e7f58502ecf
   languageName: node
   linkType: hard
 
-"@abp/sweetalert2@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/sweetalert2@npm:7.2.3"
+"@abp/sweetalert2@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/sweetalert2@npm:8.1.1"
   dependencies:
-    "@abp/core": ~7.2.3
+    "@abp/core": ~8.1.1
     sweetalert2: ^11.3.6
-  checksum: aaba865df2693c7ee09e00bc7278fa6955fa2ebab4a171b01a256654065180e55fd032c51edcb68c67933d44936a000389a8c5f2e3ee374257ebd98b337f8160
+  checksum: f28f556583dee95a987033a15ae2cdc5f4357808b4c67340059efc6a5813e0126082af05c2ee148360674a12f33be9361e04de0166bffe961774d093e4ef160b
   languageName: node
   linkType: hard
 
-"@abp/timeago@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/timeago@npm:7.2.3"
+"@abp/timeago@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/timeago@npm:8.1.1"
   dependencies:
-    "@abp/jquery": ~7.2.3
+    "@abp/jquery": ~8.1.1
     timeago: ^1.6.7
-  checksum: 9f3c48fd887f960bd3e8ffa80335031189ae9069376b23e8bad4beac7a9e2fd5a636a7ff90714fc4c861b94293de9c409fc91f35e3e675b4b3f9e1dd493c45d5
+  checksum: b65ebf33f68fb0ce1c91a0faed20715879c418d23191f9864a9e89b098e3b6bdcac0216b2d44d54e60968075f08e717aa729a401d115ecbe1cac0904fb355566
   languageName: node
   linkType: hard
 
-"@abp/toastr@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/toastr@npm:7.2.3"
+"@abp/toastr@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/toastr@npm:8.1.1"
   dependencies:
-    "@abp/jquery": ~7.2.3
+    "@abp/jquery": ~8.1.1
     toastr: ^2.1.4
-  checksum: f3e9c0e4ab7bd9e19714e4664578f77ab9590b21dfb08583a1f9d61e63609cd9b42f3e4ad5b78aeab4a65cd25c5db059760f408bf879753f246b7176350e5084
+  checksum: 04fe06500ae7cc2f3628d8e6842d7c5257cf980eadf995095017c82516dcb9bd5765418fcc1b4c5485b6add0360e7519cc85c210b1226e2ca75c11f81765ae0a
   languageName: node
   linkType: hard
 
-"@abp/utils@npm:~7.2.3":
-  version: 7.2.3
-  resolution: "@abp/utils@npm:7.2.3"
+"@abp/utils@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/utils@npm:8.1.1"
   dependencies:
-    just-compare: ^1.3.0
-  checksum: c19716ea4d2d3764a3c990591368f35b4e28c78a7dc9367dbdf235edfe3e2d88b441243ebc91bcacc0e7ec0b32b5e070b0e5693bcd3fae35172c2a0d5fa66d04
+    just-compare: ^2.3.0
+  checksum: 65c033d9a6a2cfc8187269da8f0aac7450f766fb9b112bdae19020b7d237e52d0d29c7350ba2cbbad9d6a02a3654d003164bb54e5b1ab598a2f036a7fc1fc49e
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-free@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/fontawesome-free@npm:5.15.4"
-  checksum: 32281c3df4075290d9a96dfc22f72fadb3da7055d4117e48d34046b8c98032a55fa260ae351b0af5d6f6fb57a2f5d79a4abe52af456da35195f7cb7dda27b4a2
+"@fortawesome/fontawesome-free@npm:^6.5.1":
+  version: 6.5.2
+  resolution: "@fortawesome/fontawesome-free@npm:6.5.2"
+  checksum: b77c1751721f355edc3bbc5c305d3ae87130156846511dfd3f66d5e218e246a7b3b5c57839f7b57729864b9d8b166e76aba2a11472a3e2f2ff597c24d39999df
   languageName: node
   linkType: hard
 
@@ -2293,10 +2293,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"just-compare@npm:^1.3.0":
-  version: 1.5.1
-  resolution: "just-compare@npm:1.5.1"
-  checksum: 9f9d82f43206bf1ba4dd853d126e47168bf92ce220188f41caea92d9e1d723fd5a649742a0add7f5386240e989e3d2639320d71f1a69f9903e9b85c496d40085
+"just-compare@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "just-compare@npm:2.3.0"
+  checksum: 4fbad740d2697c357b203b6f5ddcce0d9b0d38abb25bb92fbb101687c86b6cf33678332469ebf6282c4f717f20baed41b33b49f2643d07dd64e4bf7a95306464
   languageName: node
   linkType: hard
 
@@ -2691,7 +2691,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-app@workspace:."
   dependencies:
-    "@abp/aspnetcore.mvc.ui.theme.leptonxlite": ~3.0.3
+    "@abp/aspnetcore.mvc.ui.theme.leptonxlite": ~3.1.1
   languageName: unknown
   linkType: soft
 

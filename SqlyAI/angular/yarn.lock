@@ -12,107 +12,104 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@abp/ng.account.core@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.account.core@npm:8.0.4"
+"@abp/ng.account.core@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.account.core@npm:8.1.1"
   dependencies:
+    "@abp/ng.core": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  peerDependencies:
-    "@abp/ng.core": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
-    "@angular/common": ">=12.0.0"
-    "@angular/core": ">=12.0.0"
-  checksum: 1519651921443fabe18bc2dbe2411f8af124ac412b65c05655448ccd1528db2f64f6ff7da29d1d11f9b326caf6a1e2e1133aece9b358fcd4080a81e4611a43dd
+  checksum: 689bcadee949b2b43403f6b582a3b3edd19c44f7a59bafcfd8fe03f2d9e31fdfc50cb10b0b7259d80a5fbdf1face8a3a25ae4242abb79f5938736b85c765afe3
   languageName: node
   linkType: hard
 
-"@abp/ng.account@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.account@npm:8.0.4"
+"@abp/ng.account@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.account@npm:8.1.1"
   dependencies:
-    "@abp/ng.account.core": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.account.core": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: fe4d55309ba4470464be70d118c570216ce23ac90150d028013204ff660d7600ab1c5ab89fcab54a788f2f6d14bc778051ccf57e8662aaa8cb7b44ff1c2d0381
+  checksum: e51853454cd116231495ff5534e0f9237c080d20129fc4d319515700a7f8e203c5a1191c03229401a18fdf4c5072a68a42e72b436ce47d8acde11a4d981f3f50
   languageName: node
   linkType: hard
 
-"@abp/ng.components@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.components@npm:8.0.4"
+"@abp/ng.components@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.components@npm:8.1.1"
   dependencies:
     chart.js: ^3.5.1
     ng-zorro-antd: ^17.0.0
     tslib: ^2.0.0
   peerDependencies:
-    "@abp/ng.core": ">=8.0.4"
-    "@abp/ng.theme.shared": ">=8.0.4"
-  checksum: f401f51336b190c6dc995b12656d09e97fad01d9880e77ea9cf5c1cabb4c9a040a83d50a2e8e7656a6e427ce79b47a9d49751bbb929052e6aca99112f6ba68a5
+    "@abp/ng.core": ">=8.1.1"
+    "@abp/ng.theme.shared": ">=8.1.1"
+  checksum: 915d81cf13d71e0f50ddad0b38dbbff47645af64d4eb221d8db3916005fc34d0f70d6893f48fa92c2bae0c4ccb327d4e388f120f4182fa47a610f71b8cba9833
   languageName: node
   linkType: hard
 
-"@abp/ng.core@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.core@npm:8.0.4"
+"@abp/ng.core@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.core@npm:8.1.1"
   dependencies:
-    "@abp/utils": ~8.0.4
+    "@abp/utils": ~8.1.1
     just-clone: ^6.0.0
     just-compare: ^2.0.0
     ts-toolbelt: 6.15.4
     tslib: ^2.0.0
-  checksum: 15d48f2c2a3e714e181ff126ad71b57830016bb5d2e8fefda336aa615917e3f48bacdfa142971253120ba73c72ca41a6f0ec7765de1935606cf93cacc06bf600
+  checksum: c9ca09a3294fb797b373ab9a5b748b4473fd9432843829e055d08cadf3d1c396f4ce86f92fa91e8483b7afb6d9dd0d38e8f0fa6404fb77da729b6802d5bd18cc
   languageName: node
   linkType: hard
 
-"@abp/ng.feature-management@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.feature-management@npm:8.0.4"
+"@abp/ng.feature-management@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.feature-management@npm:8.1.1"
   dependencies:
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: ce527f61f9c996df4c05885f772e7583215ad9f0af4105d8156c8e413366e2cf6b811d7808f0e612ee7985d54ca8ef93b4094c56eec76117a4d5d17b7d89a783
+  checksum: 889cc4f05fb4f0410731fc4003b081d8a2f2975f27f5e54404355b4102ed3ebaf989325e32159694acf929a376708d138c9d7b0f1d62de93d2218927e3342938
   languageName: node
   linkType: hard
 
-"@abp/ng.identity@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.identity@npm:8.0.4"
+"@abp/ng.identity@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.identity@npm:8.1.1"
   dependencies:
-    "@abp/ng.components": ~8.0.4
-    "@abp/ng.permission-management": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.components": ~8.1.1
+    "@abp/ng.permission-management": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: 9dfac710a0f84791bcd31ccd8fdb638c8d371b0972799d5c2afe53b144061a492318d1b1cd646edc079e53677a2deeaa54f8f0d610efcad73996b78e71a58e03
+  checksum: 17d5aae239bcd2ecf5f749c9d381d91f97f06497af8d19bd66f30b027eaa03c499656f86047c165a003c42cf2a6b2d90dcc312f4259576b41918ea1552d9cc3b
   languageName: node
   linkType: hard
 
-"@abp/ng.oauth@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.oauth@npm:8.0.4"
+"@abp/ng.oauth@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.oauth@npm:8.1.1"
   dependencies:
-    "@abp/ng.core": ~8.0.4
-    "@abp/utils": ~8.0.4
-    angular-oauth2-oidc: ^15.0.0
+    "@abp/ng.core": ~8.1.1
+    "@abp/utils": ~8.1.1
+    angular-oauth2-oidc: ^17.0.0
     just-clone: ^6.0.0
     just-compare: ^2.0.0
     tslib: ^2.0.0
-  checksum: a7b6da2af4567989eee9506851c57f5cb8251a1223a74f102de3fc5240dba0a5cc6d2184d7d3790f38a2b223517759b98abdf29b5bf3af3bd9212f835d27b500
+  checksum: 8a42f4c47d81e3b5f7ae8ab352f5aad9dde60b5f659a4ad0ba6851c75ed284701c17f19eeeab968ce84d63c6178eb20efeee0989eea9eef03fc2f3ef3247249b
   languageName: node
   linkType: hard
 
-"@abp/ng.permission-management@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.permission-management@npm:8.0.4"
+"@abp/ng.permission-management@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.permission-management@npm:8.1.1"
   dependencies:
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: 58beef76e661807d510d76962c576aa7263fec6ef558411ffc926eee9276ece994e29b5044a86534f2a8ded81377b1a0cdb87437a9d0e6a8bfc50baec3a9b15a
+  checksum: 308213c5633b7103a5f02df5ea8e357912a2e17e7813e4b251131da5240d0429d21d9050208914804f37dd55042dc6ee651745ae78f835e08a0bfbeaaa5cac44
   languageName: node
   linkType: hard
 
-"@abp/ng.schematics@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.schematics@npm:8.0.4"
+"@abp/ng.schematics@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.schematics@npm:8.1.1"
   dependencies:
     "@angular-devkit/core": ~16.2.0
     "@angular-devkit/schematics": ~16.2.0
@@ -121,52 +118,52 @@ __metadata:
     jsonc-parser: ^2.3.0
     should-quote: ^1.0.0
     typescript: 5.0.4
-  checksum: 9e3e125ffdf7574b6a4228103cbdd505891eb3f11e110f5e8038095345e7a8953654aef47cba5d518969d52d3cd30cacf83d747cef72728a4b0e2e6a0e0e5d2d
+  checksum: 6f820589d0d18dcf3b705d310a59978600454353138db12af875506547e8eb05332c96374e64b64a4f47527a9a9dee9df821c9f01739d345aac83c183bc2aa8c
   languageName: node
   linkType: hard
 
-"@abp/ng.setting-management@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.setting-management@npm:8.0.4"
+"@abp/ng.setting-management@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.setting-management@npm:8.1.1"
   dependencies:
-    "@abp/ng.components": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.components": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: 782fde5ef3dd46c55d610c2222bcb6267222c3f04b8b5bdb689c6b2b3f8c0535e8c9da9c3f2241dd63d67d270149a155b1baca5bf8cd9d3fdc9347261d04b007
+  checksum: 027c5b69fd5bff2595ef1004bf0c643340b1e3c5aabf3a52464e8f8cb688a1ef41505c6e7ce84b8c2604fd59deb3abcdca7a00cc1fe3a8922faa2caa9aac4c60
   languageName: node
   linkType: hard
 
-"@abp/ng.tenant-management@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.tenant-management@npm:8.0.4"
+"@abp/ng.tenant-management@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.tenant-management@npm:8.1.1"
   dependencies:
-    "@abp/ng.feature-management": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.feature-management": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     tslib: ^2.0.0
-  checksum: 5ca8ee083e2645518664d256f07c217658b9710189e651e929572952aa756e2acf249677f029252174f4bd117ba21ab4f45dabe1dfbb6e7506f3021504e2e06e
+  checksum: 073e0c8214aa333be03b096c2321df58d8643b8434a6ab055b4fd873bed6a3ec2f8242631ef34f53cf7347f0994558e95135b9c4cd93974c0e624377d6ec1fcb
   languageName: node
   linkType: hard
 
-"@abp/ng.theme.lepton-x@npm:~3.0.3":
-  version: 3.0.4
-  resolution: "@abp/ng.theme.lepton-x@npm:3.0.4"
+"@abp/ng.theme.lepton-x@npm:~3.1.1":
+  version: 3.1.1
+  resolution: "@abp/ng.theme.lepton-x@npm:3.1.1"
   dependencies:
-    "@volo/abp.ng.lepton-x.core": 3.0.4
-    "@volo/ngx-lepton-x.lite": 3.0.4
+    "@volo/abp.ng.lepton-x.core": 3.1.1
+    "@volo/ngx-lepton-x.lite": 3.1.1
     tslib: ^2.3.0
   peerDependencies:
-    "@abp/ng.account.core": ~8.0.4
-    "@abp/ng.core": ~8.0.4
-    "@abp/ng.theme.shared": ~8.0.4
-  checksum: 483ce8f1b8a153cb482ae4a22f7383d77bb049ce492a2d474287d7fc71566063a52cf615a60289502f2df470b038df0b61218dbec649dcecba4b26c3dccfffd6
+    "@abp/ng.account.core": ~8.1.1
+    "@abp/ng.core": ~8.1.1
+    "@abp/ng.theme.shared": ~8.1.1
+  checksum: a490e7adb4ba6c4fdd3324afdb084634725b1aef8a4d995c6266ff6f2b3532befe158cb45a23e6d5bb3ef54f83a59cdcbadba43d579634afb19912144f2d6c93
   languageName: node
   linkType: hard
 
-"@abp/ng.theme.shared@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/ng.theme.shared@npm:8.0.4"
+"@abp/ng.theme.shared@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/ng.theme.shared@npm:8.1.1"
   dependencies:
-    "@abp/ng.core": ~8.0.4
+    "@abp/ng.core": ~8.1.1
     "@fortawesome/fontawesome-free": ^5.15.4
     "@ng-bootstrap/ng-bootstrap": ~16.0.0
     "@ngx-validate/core": ^0.2.0
@@ -174,16 +171,16 @@ __metadata:
     "@swimlane/ngx-datatable": ^20.0.0
     bootstrap: ^5.2.0
     tslib: ^2.0.0
-  checksum: ebd5dc8e4bb2fa53740e5c7fd66ddb2d92f0e47b0a7a77366bf9328e3dcab3f122ba774f58eaef02152e3b4d43515bdb3b0aa275e4d5c0e53c5e50c4305ddcd9
+  checksum: c93616699dba00d5e9d8471ca0ad22f53897e128911dbd5aeb6afe479132af89856632360d8d58918de3dac61d0c5d139c33b449b5f804cb94b82c32b045882d
   languageName: node
   linkType: hard
 
-"@abp/utils@npm:~8.0.4":
-  version: 8.0.4
-  resolution: "@abp/utils@npm:8.0.4"
+"@abp/utils@npm:~8.1.1":
+  version: 8.1.1
+  resolution: "@abp/utils@npm:8.1.1"
   dependencies:
     just-compare: ^2.3.0
-  checksum: 5f6320e7d18ecd9fc894dd08a74b4fe650b4bed2812563d90f255fae969913fa5d447609641b899c3aad576c8a66d62c453dea15b4ac33b3bbf448bd0e7aafec
+  checksum: 65c033d9a6a2cfc8187269da8f0aac7450f766fb9b112bdae19020b7d237e52d0d29c7350ba2cbbad9d6a02a3654d003164bb54e5b1ab598a2f036a7fc1fc49e
   languageName: node
   linkType: hard
 
@@ -3722,46 +3719,38 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@volo/abp.ng.lepton-x.core@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@volo/abp.ng.lepton-x.core@npm:3.0.4"
+"@volo/abp.ng.lepton-x.core@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@volo/abp.ng.lepton-x.core@npm:3.1.1"
   dependencies:
-    "@volo/ngx-lepton-x.core": 3.0.4
+    "@volo/ngx-lepton-x.core": 3.1.1
     tslib: ^2.3.0
   peerDependencies:
-    "@abp/ng.components": ~8.0.4
-  checksum: 55f891925c08533ee634dca6fd7c6a9480dfee0e0bb71cea2ca5ab2525f9abfd4bf7d8f679ea2971ba79c66e7ac65e03b0f69fc66f4d8c843feabf922e728165
+    "@abp/ng.components": ~8.1.1
+  checksum: cf4277cd92b52098ddd58fbe0ba8a52b0febef4046b59b424427651065c9215f7c898f1e2de4baa21fdb3150542f536b6c5945259d9b8596bbc4d50d2c32afa5
   languageName: node
   linkType: hard
 
-"@volo/ngx-lepton-x.core@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@volo/ngx-lepton-x.core@npm:3.0.4"
+"@volo/ngx-lepton-x.core@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@volo/ngx-lepton-x.core@npm:3.1.1"
   dependencies:
-    perfect-scrollbar: ^1.5.5
+    perfect-scrollbar: ^1.0.0
     ts-toolbelt: ^6.15.4
     tslib: ^2.3.0
-  peerDependencies:
-    "@angular/common": ">=16.0.0"
-    "@angular/core": ">=16.0.0"
-    "@angular/forms": ">=16.0.0"
-    "@angular/platform-browser": ">=16.0.0"
-    "@angular/platform-browser-dynamic": ">=16.0.0"
-    "@angular/router": ">=16.0.0"
-    rxjs: ">=7.4.0"
-  checksum: aec9cd1b8f5d6da5ef3886cb6e49045b491b609dcac77591201b0835669067a3e63f77db4222d4cc76d12f15a51cc435b968a62e05ef20e0a8d3aee918beafb5
+  checksum: 4226371d128ad8250f1859787f463762dbe34e3d7f1ddc8bed6628141f6a2f459075396610eec8c6ae36ee2f02c9cee202baf0fd8260133abc2cd215e1df85b4
   languageName: node
   linkType: hard
 
-"@volo/ngx-lepton-x.lite@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@volo/ngx-lepton-x.lite@npm:3.0.4"
+"@volo/ngx-lepton-x.lite@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@volo/ngx-lepton-x.lite@npm:3.1.1"
   dependencies:
     "@ng-bootstrap/ng-bootstrap": ~16.0.0
-    "@volo/ngx-lepton-x.core": 3.0.4
+    "@volo/ngx-lepton-x.core": 3.1.1
     bootstrap-icons: ~1.7.2
     tslib: ^2.3.0
-  checksum: 48f0bd957a548b7fc70568c0d630c5fe4d038a29bbe2ded5103d6ce3f4c956ff76a5ce802fed877eb12b7ed7d53c424b77d0a9c044d11f790da5219f0c80d88f
+  checksum: 8c2453d36ed07bc78e5878dee231a2ae9a70ab8abf0cbdc754535fdcc0832e8862c43a3d9e53cbdb0bf4350d3e412580bff108686e6d63af326d6560da0dfcaf
   languageName: node
   linkType: hard
 
@@ -3962,16 +3951,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "SqlyAI@workspace:."
   dependencies:
-    "@abp/ng.account": ~8.0.4
-    "@abp/ng.components": ~8.0.4
-    "@abp/ng.core": ~8.0.4
-    "@abp/ng.identity": ~8.0.4
-    "@abp/ng.oauth": ~8.0.4
-    "@abp/ng.schematics": ~8.0.4
-    "@abp/ng.setting-management": ~8.0.4
-    "@abp/ng.tenant-management": ~8.0.4
-    "@abp/ng.theme.lepton-x": ~3.0.3
-    "@abp/ng.theme.shared": ~8.0.4
+    "@abp/ng.account": ~8.1.1
+    "@abp/ng.components": ~8.1.1
+    "@abp/ng.core": ~8.1.1
+    "@abp/ng.identity": ~8.1.1
+    "@abp/ng.oauth": ~8.1.1
+    "@abp/ng.schematics": ~8.1.1
+    "@abp/ng.setting-management": ~8.1.1
+    "@abp/ng.tenant-management": ~8.1.1
+    "@abp/ng.theme.lepton-x": ~3.1.1
+    "@abp/ng.theme.shared": ~8.1.1
     "@angular-devkit/build-angular": ~17.0.0
     "@angular-eslint/builder": ~17.0.0
     "@angular-eslint/eslint-plugin": ~17.0.0
@@ -4172,15 +4161,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"angular-oauth2-oidc@npm:^15.0.0":
-  version: 15.0.1
-  resolution: "angular-oauth2-oidc@npm:15.0.1"
+"angular-oauth2-oidc@npm:^17.0.0":
+  version: 17.0.2
+  resolution: "angular-oauth2-oidc@npm:17.0.2"
   dependencies:
-    tslib: ^2.0.0
+    tslib: ^2.5.2
   peerDependencies:
     "@angular/common": ">=14.0.0"
     "@angular/core": ">=14.0.0"
-  checksum: c9e3820c6f53acc114f76caaed760813a285451955f69436977edf3e17b45ed2beb502583c10b353ae9d2a5c6e03a912f5a6f6c1ffa5c7678a105a53a2b49b23
+  checksum: 9b0a33f58295448c30e538326bee88282f237c9f51e428f71edd40cbdc726c83960d75f113d771ee137973df28efe5a858dd212628a7054a4543def1bc94e7da
   languageName: node
   linkType: hard
 
@@ -9668,7 +9657,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"perfect-scrollbar@npm:^1.5.5":
+"perfect-scrollbar@npm:^1.0.0":
   version: 1.5.5
   resolution: "perfect-scrollbar@npm:1.5.5"
   checksum: 7a8d3097e91df1dd112f28ee9539c1a36ae7a836d986798af2e0d1e32c3ef21380215b3c06bc12434d89547d7f763637ac19b877549049b6c2166da85956c9dc
@@ -11385,7 +11374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.2, tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0":
+"tslib@npm:2.6.2, tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.5.2":
   version: 2.6.2
   resolution: "tslib@npm:2.6.2"
   checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad

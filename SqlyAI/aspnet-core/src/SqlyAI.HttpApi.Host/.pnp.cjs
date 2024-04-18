@@ -28,16 +28,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.0.4"]\
+            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
       ]],\
       ["@abp/aspnetcore.mvc.ui", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui-npm-7.2.3-a41fe63993-da4fafb418.zip/node_modules/@abp/aspnetcore.mvc.ui/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui-npm-8.1.1-49f1fe6f50-a3e8f7f66b.zip/node_modules/@abp/aspnetcore.mvc.ui/",\
           "packageDependencies": [\
-            ["@abp/aspnetcore.mvc.ui", "npm:7.2.3"],\
+            ["@abp/aspnetcore.mvc.ui", "npm:8.1.1"],\
             ["ansi-colors", "npm:4.1.3"],\
             ["extend-object", "npm:1.0.0"],\
             ["glob", "npm:7.2.3"],\
@@ -49,260 +49,260 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui.theme.leptonxlite-npm-3.0.4-b3bc29f5fd-2b93794e39.zip/node_modules/@abp/aspnetcore.mvc.ui.theme.leptonxlite/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui.theme.leptonxlite-npm-3.1.1-ddce175731-5775872c13.zip/node_modules/@abp/aspnetcore.mvc.ui.theme.leptonxlite/",\
           "packageDependencies": [\
-            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.0.4"],\
-            ["@abp/aspnetcore.mvc.ui.theme.shared", "npm:7.2.3"]\
+            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.1.1"],\
+            ["@abp/aspnetcore.mvc.ui.theme.shared", "npm:8.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/aspnetcore.mvc.ui.theme.shared", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui.theme.shared-npm-7.2.3-c102cc0912-ddc80262b2.zip/node_modules/@abp/aspnetcore.mvc.ui.theme.shared/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-aspnetcore.mvc.ui.theme.shared-npm-8.1.1-5f29e5cd04-4f7ddccb70.zip/node_modules/@abp/aspnetcore.mvc.ui.theme.shared/",\
           "packageDependencies": [\
-            ["@abp/aspnetcore.mvc.ui.theme.shared", "npm:7.2.3"],\
-            ["@abp/aspnetcore.mvc.ui", "npm:7.2.3"],\
-            ["@abp/bootstrap", "npm:7.2.3"],\
-            ["@abp/bootstrap-datepicker", "npm:7.2.3"],\
-            ["@abp/bootstrap-daterangepicker", "npm:7.2.3"],\
-            ["@abp/datatables.net-bs5", "npm:7.2.3"],\
-            ["@abp/font-awesome", "npm:7.2.3"],\
-            ["@abp/jquery-form", "npm:7.2.3"],\
-            ["@abp/jquery-validation-unobtrusive", "npm:7.2.3"],\
-            ["@abp/lodash", "npm:7.2.3"],\
-            ["@abp/luxon", "npm:7.2.3"],\
-            ["@abp/malihu-custom-scrollbar-plugin", "npm:7.2.3"],\
-            ["@abp/moment", "npm:7.2.3"],\
-            ["@abp/select2", "npm:7.2.3"],\
-            ["@abp/sweetalert2", "npm:7.2.3"],\
-            ["@abp/timeago", "npm:7.2.3"],\
-            ["@abp/toastr", "npm:7.2.3"]\
+            ["@abp/aspnetcore.mvc.ui.theme.shared", "npm:8.1.1"],\
+            ["@abp/aspnetcore.mvc.ui", "npm:8.1.1"],\
+            ["@abp/bootstrap", "npm:8.1.1"],\
+            ["@abp/bootstrap-datepicker", "npm:8.1.1"],\
+            ["@abp/bootstrap-daterangepicker", "npm:8.1.1"],\
+            ["@abp/datatables.net-bs5", "npm:8.1.1"],\
+            ["@abp/font-awesome", "npm:8.1.1"],\
+            ["@abp/jquery-form", "npm:8.1.1"],\
+            ["@abp/jquery-validation-unobtrusive", "npm:8.1.1"],\
+            ["@abp/lodash", "npm:8.1.1"],\
+            ["@abp/luxon", "npm:8.1.1"],\
+            ["@abp/malihu-custom-scrollbar-plugin", "npm:8.1.1"],\
+            ["@abp/moment", "npm:8.1.1"],\
+            ["@abp/select2", "npm:8.1.1"],\
+            ["@abp/sweetalert2", "npm:8.1.1"],\
+            ["@abp/timeago", "npm:8.1.1"],\
+            ["@abp/toastr", "npm:8.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/bootstrap", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-bootstrap-npm-7.2.3-2071b38c6a-9343801d29.zip/node_modules/@abp/bootstrap/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-bootstrap-npm-8.1.1-1188586c4d-c36d0d03be.zip/node_modules/@abp/bootstrap/",\
           "packageDependencies": [\
-            ["@abp/bootstrap", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
-            ["bootstrap", "virtual:2071b38c6a19526b42727620f75334306772be66bfc1fe012fac2ee60f865da9d5aeb3880fd75ce667f5bf7280c757b69756de3a036c3015cfee6097bbc330e1#npm:5.3.3"]\
+            ["@abp/bootstrap", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
+            ["bootstrap", "virtual:1188586c4d236cc263671d8923dbe9bf74d57bf3aa3daae3ad05e50f20949c8156799f9c9876dd5f6a6615f62fc42d8be4a544b4666078157adcb3b8c8302c72#npm:5.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/bootstrap-datepicker", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-bootstrap-datepicker-npm-7.2.3-a8ae4edc4c-ac7bd463a6.zip/node_modules/@abp/bootstrap-datepicker/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-bootstrap-datepicker-npm-8.1.1-7d134dd426-d4cf48d31b.zip/node_modules/@abp/bootstrap-datepicker/",\
           "packageDependencies": [\
-            ["@abp/bootstrap-datepicker", "npm:7.2.3"],\
+            ["@abp/bootstrap-datepicker", "npm:8.1.1"],\
             ["bootstrap-datepicker", "npm:1.10.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/bootstrap-daterangepicker", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-bootstrap-daterangepicker-npm-7.2.3-6d96ca895f-8fce118b00.zip/node_modules/@abp/bootstrap-daterangepicker/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-bootstrap-daterangepicker-npm-8.1.1-75a0894b6d-041ad0c6f6.zip/node_modules/@abp/bootstrap-daterangepicker/",\
           "packageDependencies": [\
-            ["@abp/bootstrap-daterangepicker", "npm:7.2.3"],\
+            ["@abp/bootstrap-daterangepicker", "npm:8.1.1"],\
             ["bootstrap-daterangepicker", "npm:3.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/core", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-core-npm-7.2.3-4c82129406-ec4b467656.zip/node_modules/@abp/core/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-core-npm-8.1.1-82670e113b-d84caf8654.zip/node_modules/@abp/core/",\
           "packageDependencies": [\
-            ["@abp/core", "npm:7.2.3"],\
-            ["@abp/utils", "npm:7.2.3"]\
+            ["@abp/core", "npm:8.1.1"],\
+            ["@abp/utils", "npm:8.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/datatables.net", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-datatables.net-npm-7.2.3-3693da3744-18cbdfb643.zip/node_modules/@abp/datatables.net/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-datatables.net-npm-8.1.1-2595e6241d-59ba4f8b2a.zip/node_modules/@abp/datatables.net/",\
           "packageDependencies": [\
-            ["@abp/datatables.net", "npm:7.2.3"],\
-            ["@abp/jquery", "npm:7.2.3"],\
+            ["@abp/datatables.net", "npm:8.1.1"],\
+            ["@abp/jquery", "npm:8.1.1"],\
             ["datatables.net", "npm:1.13.11"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/datatables.net-bs5", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-datatables.net-bs5-npm-7.2.3-fbc0c2b45e-1e8f533be9.zip/node_modules/@abp/datatables.net-bs5/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-datatables.net-bs5-npm-8.1.1-adefa9a18c-b48fa87db2.zip/node_modules/@abp/datatables.net-bs5/",\
           "packageDependencies": [\
-            ["@abp/datatables.net-bs5", "npm:7.2.3"],\
-            ["@abp/datatables.net", "npm:7.2.3"],\
+            ["@abp/datatables.net-bs5", "npm:8.1.1"],\
+            ["@abp/datatables.net", "npm:8.1.1"],\
             ["datatables.net-bs5", "npm:1.13.11"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/font-awesome", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-font-awesome-npm-7.2.3-75123a10dc-4a832405b5.zip/node_modules/@abp/font-awesome/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-font-awesome-npm-8.1.1-c497ec63e5-8a0d6ba60d.zip/node_modules/@abp/font-awesome/",\
           "packageDependencies": [\
-            ["@abp/font-awesome", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
-            ["@fortawesome/fontawesome-free", "npm:5.15.4"]\
+            ["@abp/font-awesome", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
+            ["@fortawesome/fontawesome-free", "npm:6.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/jquery", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-jquery-npm-7.2.3-ecbb93790b-0e7c8a4feb.zip/node_modules/@abp/jquery/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-jquery-npm-8.1.1-2c8fc15e9f-53ffbca8f3.zip/node_modules/@abp/jquery/",\
           "packageDependencies": [\
-            ["@abp/jquery", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/jquery", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["jquery", "npm:3.6.4"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/jquery-form", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-jquery-form-npm-7.2.3-e6ffb39613-dffec737a1.zip/node_modules/@abp/jquery-form/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-jquery-form-npm-8.1.1-7f64450024-04ebefddc0.zip/node_modules/@abp/jquery-form/",\
           "packageDependencies": [\
-            ["@abp/jquery-form", "npm:7.2.3"],\
-            ["@abp/jquery", "npm:7.2.3"],\
+            ["@abp/jquery-form", "npm:8.1.1"],\
+            ["@abp/jquery", "npm:8.1.1"],\
             ["jquery-form", "npm:4.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/jquery-validation", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-jquery-validation-npm-7.2.3-ba504a2a4c-a16edd6c63.zip/node_modules/@abp/jquery-validation/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-jquery-validation-npm-8.1.1-12cb0b23e8-45a7c5f511.zip/node_modules/@abp/jquery-validation/",\
           "packageDependencies": [\
-            ["@abp/jquery-validation", "npm:7.2.3"],\
-            ["@abp/jquery", "npm:7.2.3"],\
-            ["jquery-validation", "virtual:ba504a2a4c4205f82eb12874594745fb38b7b347a1188acdf8b28ac7acde946ac8aeedef947ed0fe37891e395bceb8c4619bf9357a7d0295571131243d259718#npm:1.20.0"]\
+            ["@abp/jquery-validation", "npm:8.1.1"],\
+            ["@abp/jquery", "npm:8.1.1"],\
+            ["jquery-validation", "virtual:12cb0b23e8ac2fc6c998bc2549fbb891837a0cd8d9eb38b6afd8efd46508179a69c25c607449193ac71451dd333eb6b335489ac814fff55578857c1ade7de8af#npm:1.20.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/jquery-validation-unobtrusive", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-jquery-validation-unobtrusive-npm-7.2.3-21c1bbca5d-f6e0a81c0e.zip/node_modules/@abp/jquery-validation-unobtrusive/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-jquery-validation-unobtrusive-npm-8.1.1-edd5d81042-9f911258c5.zip/node_modules/@abp/jquery-validation-unobtrusive/",\
           "packageDependencies": [\
-            ["@abp/jquery-validation-unobtrusive", "npm:7.2.3"],\
-            ["@abp/jquery-validation", "npm:7.2.3"],\
+            ["@abp/jquery-validation-unobtrusive", "npm:8.1.1"],\
+            ["@abp/jquery-validation", "npm:8.1.1"],\
             ["jquery-validation-unobtrusive", "npm:3.2.12"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/lodash", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-lodash-npm-7.2.3-8db68420f5-d339594588.zip/node_modules/@abp/lodash/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-lodash-npm-8.1.1-a33adf5016-0cc446ff01.zip/node_modules/@abp/lodash/",\
           "packageDependencies": [\
-            ["@abp/lodash", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/lodash", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["lodash", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/luxon", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-luxon-npm-7.2.3-76c129692a-7b87e28b1a.zip/node_modules/@abp/luxon/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-luxon-npm-8.1.1-17b3c07cde-46f0241a1e.zip/node_modules/@abp/luxon/",\
           "packageDependencies": [\
-            ["@abp/luxon", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/luxon", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["luxon", "npm:2.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/malihu-custom-scrollbar-plugin", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-malihu-custom-scrollbar-plugin-npm-7.2.3-3b7747af05-5133d5f4cf.zip/node_modules/@abp/malihu-custom-scrollbar-plugin/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-malihu-custom-scrollbar-plugin-npm-8.1.1-c40ed2531c-453d5f179c.zip/node_modules/@abp/malihu-custom-scrollbar-plugin/",\
           "packageDependencies": [\
-            ["@abp/malihu-custom-scrollbar-plugin", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/malihu-custom-scrollbar-plugin", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["malihu-custom-scrollbar-plugin", "npm:3.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/moment", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-moment-npm-7.2.3-2e6e970e01-91d267f9b9.zip/node_modules/@abp/moment/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-moment-npm-8.1.1-0d63089191-fd53dfe813.zip/node_modules/@abp/moment/",\
           "packageDependencies": [\
-            ["@abp/moment", "npm:7.2.3"],\
+            ["@abp/moment", "npm:8.1.1"],\
             ["moment", "npm:2.30.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/select2", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-select2-npm-7.2.3-f70922b4cf-7ef7530db2.zip/node_modules/@abp/select2/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-select2-npm-8.1.1-faea9b8213-5a9eda7cd1.zip/node_modules/@abp/select2/",\
           "packageDependencies": [\
-            ["@abp/select2", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/select2", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["select2", "npm:4.0.13"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/sweetalert2", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-sweetalert2-npm-7.2.3-deb3fbfbd0-aaba865df2.zip/node_modules/@abp/sweetalert2/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-sweetalert2-npm-8.1.1-aa2a1b1a70-f28f556583.zip/node_modules/@abp/sweetalert2/",\
           "packageDependencies": [\
-            ["@abp/sweetalert2", "npm:7.2.3"],\
-            ["@abp/core", "npm:7.2.3"],\
+            ["@abp/sweetalert2", "npm:8.1.1"],\
+            ["@abp/core", "npm:8.1.1"],\
             ["sweetalert2", "npm:11.10.5"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/timeago", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-timeago-npm-7.2.3-2940a7ee1b-9f3c48fd88.zip/node_modules/@abp/timeago/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-timeago-npm-8.1.1-89145c8b2a-b65ebf33f6.zip/node_modules/@abp/timeago/",\
           "packageDependencies": [\
-            ["@abp/timeago", "npm:7.2.3"],\
-            ["@abp/jquery", "npm:7.2.3"],\
+            ["@abp/timeago", "npm:8.1.1"],\
+            ["@abp/jquery", "npm:8.1.1"],\
             ["timeago", "npm:1.6.7"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/toastr", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-toastr-npm-7.2.3-d90d06c975-f3e9c0e4ab.zip/node_modules/@abp/toastr/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-toastr-npm-8.1.1-a57b519bc0-04fe06500a.zip/node_modules/@abp/toastr/",\
           "packageDependencies": [\
-            ["@abp/toastr", "npm:7.2.3"],\
-            ["@abp/jquery", "npm:7.2.3"],\
+            ["@abp/toastr", "npm:8.1.1"],\
+            ["@abp/jquery", "npm:8.1.1"],\
             ["toastr", "npm:2.1.4"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/utils", [\
-        ["npm:7.2.3", {\
-          "packageLocation": "./.yarn/cache/@abp-utils-npm-7.2.3-f2ba4276f2-c19716ea4d.zip/node_modules/@abp/utils/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-utils-npm-8.1.1-a4d4f30f3c-65c033d9a6.zip/node_modules/@abp/utils/",\
           "packageDependencies": [\
-            ["@abp/utils", "npm:7.2.3"],\
-            ["just-compare", "npm:1.5.1"]\
+            ["@abp/utils", "npm:8.1.1"],\
+            ["just-compare", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@fortawesome/fontawesome-free", [\
-        ["npm:5.15.4", {\
-          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-free-npm-5.15.4-7752dc20e0/node_modules/@fortawesome/fontawesome-free/",\
+        ["npm:6.5.2", {\
+          "packageLocation": "./.yarn/unplugged/@fortawesome-fontawesome-free-npm-6.5.2-81f99be10c/node_modules/@fortawesome/fontawesome-free/",\
           "packageDependencies": [\
-            ["@fortawesome/fontawesome-free", "npm:5.15.4"]\
+            ["@fortawesome/fontawesome-free", "npm:6.5.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -727,10 +727,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:2071b38c6a19526b42727620f75334306772be66bfc1fe012fac2ee60f865da9d5aeb3880fd75ce667f5bf7280c757b69756de3a036c3015cfee6097bbc330e1#npm:5.3.3", {\
-          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-a44bc7c7a0/0/cache/bootstrap-npm-5.3.3-da08e2f0fe-537b68db30.zip/node_modules/bootstrap/",\
+        ["virtual:1188586c4d236cc263671d8923dbe9bf74d57bf3aa3daae3ad05e50f20949c8156799f9c9876dd5f6a6615f62fc42d8be4a544b4666078157adcb3b8c8302c72#npm:5.3.3", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-86fea3de65/0/cache/bootstrap-npm-5.3.3-da08e2f0fe-537b68db30.zip/node_modules/bootstrap/",\
           "packageDependencies": [\
-            ["bootstrap", "virtual:2071b38c6a19526b42727620f75334306772be66bfc1fe012fac2ee60f865da9d5aeb3880fd75ce667f5bf7280c757b69756de3a036c3015cfee6097bbc330e1#npm:5.3.3"],\
+            ["bootstrap", "virtual:1188586c4d236cc263671d8923dbe9bf74d57bf3aa3daae3ad05e50f20949c8156799f9c9876dd5f6a6615f62fc42d8be4a544b4666078157adcb3b8c8302c72#npm:5.3.3"],\
             ["@popperjs/core", null],\
             ["@types/popperjs__core", null]\
           ],\
@@ -2588,12 +2588,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:883a110376c6fe9973e29e43a41a63e3942f09a0f0f0b1e391ed66c7f64c77fa72a10193f06266aee5215baa9059355ec8983a07c9c2b8a001e9a7688066b856#npm:1.20.0", {\
-          "packageLocation": "./.yarn/__virtual__/jquery-validation-virtual-e03aee048a/0/cache/jquery-validation-npm-1.20.0-bf1d60ec1b-203029d1bc.zip/node_modules/jquery-validation/",\
+        ["virtual:12cb0b23e8ac2fc6c998bc2549fbb891837a0cd8d9eb38b6afd8efd46508179a69c25c607449193ac71451dd333eb6b335489ac814fff55578857c1ade7de8af#npm:1.20.0", {\
+          "packageLocation": "./.yarn/__virtual__/jquery-validation-virtual-b89bf2336f/0/cache/jquery-validation-npm-1.20.0-bf1d60ec1b-203029d1bc.zip/node_modules/jquery-validation/",\
           "packageDependencies": [\
-            ["jquery-validation", "virtual:883a110376c6fe9973e29e43a41a63e3942f09a0f0f0b1e391ed66c7f64c77fa72a10193f06266aee5215baa9059355ec8983a07c9c2b8a001e9a7688066b856#npm:1.20.0"],\
+            ["jquery-validation", "virtual:12cb0b23e8ac2fc6c998bc2549fbb891837a0cd8d9eb38b6afd8efd46508179a69c25c607449193ac71451dd333eb6b335489ac814fff55578857c1ade7de8af#npm:1.20.0"],\
             ["@types/jquery", null],\
-            ["jquery", "npm:3.7.1"]\
+            ["jquery", null]\
           ],\
           "packagePeers": [\
             "@types/jquery",\
@@ -2601,12 +2601,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:ba504a2a4c4205f82eb12874594745fb38b7b347a1188acdf8b28ac7acde946ac8aeedef947ed0fe37891e395bceb8c4619bf9357a7d0295571131243d259718#npm:1.20.0", {\
-          "packageLocation": "./.yarn/__virtual__/jquery-validation-virtual-5adcec2de2/0/cache/jquery-validation-npm-1.20.0-bf1d60ec1b-203029d1bc.zip/node_modules/jquery-validation/",\
+        ["virtual:883a110376c6fe9973e29e43a41a63e3942f09a0f0f0b1e391ed66c7f64c77fa72a10193f06266aee5215baa9059355ec8983a07c9c2b8a001e9a7688066b856#npm:1.20.0", {\
+          "packageLocation": "./.yarn/__virtual__/jquery-validation-virtual-e03aee048a/0/cache/jquery-validation-npm-1.20.0-bf1d60ec1b-203029d1bc.zip/node_modules/jquery-validation/",\
           "packageDependencies": [\
-            ["jquery-validation", "virtual:ba504a2a4c4205f82eb12874594745fb38b7b347a1188acdf8b28ac7acde946ac8aeedef947ed0fe37891e395bceb8c4619bf9357a7d0295571131243d259718#npm:1.20.0"],\
+            ["jquery-validation", "virtual:883a110376c6fe9973e29e43a41a63e3942f09a0f0f0b1e391ed66c7f64c77fa72a10193f06266aee5215baa9059355ec8983a07c9c2b8a001e9a7688066b856#npm:1.20.0"],\
             ["@types/jquery", null],\
-            ["jquery", null]\
+            ["jquery", "npm:3.7.1"]\
           ],\
           "packagePeers": [\
             "@types/jquery",\
@@ -2645,10 +2645,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["just-compare", [\
-        ["npm:1.5.1", {\
-          "packageLocation": "./.yarn/cache/just-compare-npm-1.5.1-c8572f1112-9f9d82f432.zip/node_modules/just-compare/",\
+        ["npm:2.3.0", {\
+          "packageLocation": "./.yarn/cache/just-compare-npm-2.3.0-dec891b311-4fbad740d2.zip/node_modules/just-compare/",\
           "packageDependencies": [\
-            ["just-compare", "npm:1.5.1"]\
+            ["just-compare", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3078,7 +3078,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["my-app", "workspace:."],\
-            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.0.4"]\
+            ["@abp/aspnetcore.mvc.ui.theme.leptonxlite", "npm:3.1.1"]\
           ],\
           "linkType": "SOFT"\
         }]\

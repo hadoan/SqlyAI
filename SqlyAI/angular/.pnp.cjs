@@ -28,16 +28,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@abp/ng.account", "npm:8.0.4"],\
-            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.0.4"],\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/ng.identity", "npm:8.0.4"],\
-            ["@abp/ng.oauth", "npm:8.0.4"],\
-            ["@abp/ng.schematics", "npm:8.0.4"],\
-            ["@abp/ng.setting-management", "npm:8.0.4"],\
-            ["@abp/ng.tenant-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.account", "npm:8.1.1"],\
+            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/ng.identity", "npm:8.1.1"],\
+            ["@abp/ng.oauth", "npm:8.1.1"],\
+            ["@abp/ng.schematics", "npm:8.1.1"],\
+            ["@abp/ng.setting-management", "npm:8.1.1"],\
+            ["@abp/ng.tenant-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["@angular-devkit/build-angular", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.10"],\
             ["@angular-eslint/builder", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.1"],\
             ["@angular-eslint/eslint-plugin", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.1"],\
@@ -86,70 +86,47 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.account", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.account-npm-8.0.4-53c41494a9-fe4d55309b.zip/node_modules/@abp/ng.account/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.account-npm-8.1.1-401b9356b7-e51853454c.zip/node_modules/@abp/ng.account/",\
           "packageDependencies": [\
-            ["@abp/ng.account", "npm:8.0.4"],\
-            ["@abp/ng.account.core", "virtual:53c41494a9130f3242d25c24f9c7ed66c8311aa4e02defb3c0d7e26d0b700188a98f1d57ff489e95512a26b4865c841a875c132fe794dc1aeb3c72212f85398d#npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.account", "npm:8.1.1"],\
+            ["@abp/ng.account.core", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.account.core", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.account.core-npm-8.0.4-7c9e42328a-1519651921.zip/node_modules/@abp/ng.account.core/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.account.core-npm-8.1.1-c3ead60d64-689bcadee9.zip/node_modules/@abp/ng.account.core/",\
           "packageDependencies": [\
-            ["@abp/ng.account.core", "npm:8.0.4"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:53c41494a9130f3242d25c24f9c7ed66c8311aa4e02defb3c0d7e26d0b700188a98f1d57ff489e95512a26b4865c841a875c132fe794dc1aeb3c72212f85398d#npm:8.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@abp-ng.account.core-virtual-4e2b5a9b1e/0/cache/@abp-ng.account.core-npm-8.0.4-7c9e42328a-1519651921.zip/node_modules/@abp/ng.account.core/",\
-          "packageDependencies": [\
-            ["@abp/ng.account.core", "virtual:53c41494a9130f3242d25c24f9c7ed66c8311aa4e02defb3c0d7e26d0b700188a98f1d57ff489e95512a26b4865c841a875c132fe794dc1aeb3c72212f85398d#npm:8.0.4"],\
-            ["@abp/ng.core", null],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
-            ["@angular/common", null],\
-            ["@angular/core", null],\
-            ["@types/abp__ng.core", null],\
-            ["@types/abp__ng.theme.shared", null],\
-            ["@types/angular__common", null],\
-            ["@types/angular__core", null],\
+            ["@abp/ng.account.core", "npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
-          ],\
-          "packagePeers": [\
-            "@abp/ng.core",\
-            "@abp/ng.theme.shared",\
-            "@angular/common",\
-            "@angular/core",\
-            "@types/abp__ng.core",\
-            "@types/abp__ng.theme.shared",\
-            "@types/angular__common",\
-            "@types/angular__core"\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.components", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.components-npm-8.0.4-10edb747d1-f401f51336.zip/node_modules/@abp/ng.components/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.components-npm-8.1.1-e65dbdc78f-915d81cf13.zip/node_modules/@abp/ng.components/",\
           "packageDependencies": [\
-            ["@abp/ng.components", "npm:8.0.4"]\
+            ["@abp/ng.components", "npm:8.1.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:2eb4d1223e5981f0d7f1173c823f304452fe8d6af2fcbe2c099148c6f9e15c5d5c5cae078bc353dbf87885705a3d43d3902403b99dd11a5b1f712037f22d64a5#npm:8.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@abp-ng.components-virtual-8ecd5982f1/0/cache/@abp-ng.components-npm-8.0.4-10edb747d1-f401f51336.zip/node_modules/@abp/ng.components/",\
+        ["virtual:4ab8fef6749619747cc73fd6671a623bbcdc9106ec9f681abf86d7e9f06fb4f8986aee9266430d51a624c10ad1dff83e1e9fe5f408638f890360a45aa92cf55e#npm:8.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@abp-ng.components-virtual-a65a174fd8/0/cache/@abp-ng.components-npm-8.1.1-e65dbdc78f-915d81cf13.zip/node_modules/@abp/ng.components/",\
           "packageDependencies": [\
-            ["@abp/ng.components", "virtual:2eb4d1223e5981f0d7f1173c823f304452fe8d6af2fcbe2c099148c6f9e15c5d5c5cae078bc353dbf87885705a3d43d3902403b99dd11a5b1f712037f22d64a5#npm:8.0.4"],\
+            ["@abp/ng.components", "virtual:4ab8fef6749619747cc73fd6671a623bbcdc9106ec9f681abf86d7e9f06fb4f8986aee9266430d51a624c10ad1dff83e1e9fe5f408638f890360a45aa92cf55e#npm:8.1.1"],\
             ["@abp/ng.core", null],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["@types/abp__ng.core", null],\
             ["@types/abp__ng.theme.shared", null],\
             ["chart.js", "npm:3.9.1"],\
-            ["ng-zorro-antd", "virtual:8ecd5982f12e986d04ad9e34457b0299b9a6fca8511efc09f0ecb777ca52df6bf902a46f33a7c62cc410e069dd8609fd4cbee9d7529c4c0a2c2bb187dd7af5c4#npm:17.2.0"],\
+            ["ng-zorro-antd", "virtual:a65a174fd80f74b09dc1197859154d4c7f37e48014e529fd99d5aa3671343350077d9094b083759fd1875089250f73b563479d21f9b2f1d6ee97e8b8c3d43da7#npm:17.2.0"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "packagePeers": [\
@@ -160,16 +137,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@abp-ng.components-virtual-1781d36633/0/cache/@abp-ng.components-npm-8.0.4-10edb747d1-f401f51336.zip/node_modules/@abp/ng.components/",\
+        ["virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@abp-ng.components-virtual-84451fe39d/0/cache/@abp-ng.components-npm-8.1.1-e65dbdc78f-915d81cf13.zip/node_modules/@abp/ng.components/",\
           "packageDependencies": [\
-            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.0.4"],\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["@types/abp__ng.core", null],\
             ["@types/abp__ng.theme.shared", null],\
             ["chart.js", "npm:3.9.1"],\
-            ["ng-zorro-antd", "virtual:8ecd5982f12e986d04ad9e34457b0299b9a6fca8511efc09f0ecb777ca52df6bf902a46f33a7c62cc410e069dd8609fd4cbee9d7529c4c0a2c2bb187dd7af5c4#npm:17.2.0"],\
+            ["ng-zorro-antd", "virtual:a65a174fd80f74b09dc1197859154d4c7f37e48014e529fd99d5aa3671343350077d9094b083759fd1875089250f73b563479d21f9b2f1d6ee97e8b8c3d43da7#npm:17.2.0"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "packagePeers": [\
@@ -182,11 +159,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.core", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.core-npm-8.0.4-53d76f3e4f-15d48f2c2a.zip/node_modules/@abp/ng.core/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.core-npm-8.1.1-1ea715053b-c9ca09a329.zip/node_modules/@abp/ng.core/",\
           "packageDependencies": [\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/utils", "npm:8.0.4"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/utils", "npm:8.1.1"],\
             ["just-clone", "npm:6.2.0"],\
             ["just-compare", "npm:2.3.0"],\
             ["ts-toolbelt", "npm:6.15.4"],\
@@ -196,37 +173,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.feature-management", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.feature-management-npm-8.0.4-638003ca4f-ce527f61f9.zip/node_modules/@abp/ng.feature-management/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.feature-management-npm-8.1.1-6674da75a1-889cc4f05f.zip/node_modules/@abp/ng.feature-management/",\
           "packageDependencies": [\
-            ["@abp/ng.feature-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.feature-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.identity", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.identity-npm-8.0.4-2eb4d1223e-9dfac710a0.zip/node_modules/@abp/ng.identity/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.identity-npm-8.1.1-4ab8fef674-17d5aae239.zip/node_modules/@abp/ng.identity/",\
           "packageDependencies": [\
-            ["@abp/ng.identity", "npm:8.0.4"],\
-            ["@abp/ng.components", "virtual:2eb4d1223e5981f0d7f1173c823f304452fe8d6af2fcbe2c099148c6f9e15c5d5c5cae078bc353dbf87885705a3d43d3902403b99dd11a5b1f712037f22d64a5#npm:8.0.4"],\
-            ["@abp/ng.permission-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.identity", "npm:8.1.1"],\
+            ["@abp/ng.components", "virtual:4ab8fef6749619747cc73fd6671a623bbcdc9106ec9f681abf86d7e9f06fb4f8986aee9266430d51a624c10ad1dff83e1e9fe5f408638f890360a45aa92cf55e#npm:8.1.1"],\
+            ["@abp/ng.permission-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.oauth", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.oauth-npm-8.0.4-362de01c9c-a7b6da2af4.zip/node_modules/@abp/ng.oauth/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.oauth-npm-8.1.1-827f9ee478-8a42f4c47d.zip/node_modules/@abp/ng.oauth/",\
           "packageDependencies": [\
-            ["@abp/ng.oauth", "npm:8.0.4"],\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/utils", "npm:8.0.4"],\
-            ["angular-oauth2-oidc", "virtual:362de01c9c7f1de9ad0f7a7f185579f2718c7a0e3a96532413a5abbbf849c3f745289e8a81609e24a6a8482e44b80494953f57224a146e65c723bb448c6b6788#npm:15.0.1"],\
+            ["@abp/ng.oauth", "npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/utils", "npm:8.1.1"],\
+            ["angular-oauth2-oidc", "virtual:827f9ee4788bb16fe69ea138245edb96a5361c8ac5a5ac928321791294fcef897e48f570f673e0bf261fae5fc8dd5a364ce69fd5a23427a35af2f82ae4bb81a7#npm:17.0.2"],\
             ["just-clone", "npm:6.2.0"],\
             ["just-compare", "npm:2.3.0"],\
             ["tslib", "npm:2.6.2"]\
@@ -235,21 +212,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.permission-management", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.permission-management-npm-8.0.4-79becaff09-58beef76e6.zip/node_modules/@abp/ng.permission-management/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.permission-management-npm-8.1.1-2d07e12f4b-308213c563.zip/node_modules/@abp/ng.permission-management/",\
           "packageDependencies": [\
-            ["@abp/ng.permission-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.permission-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.schematics", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.schematics-npm-8.0.4-b5badc4890-9e3e125ffd.zip/node_modules/@abp/ng.schematics/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.schematics-npm-8.1.1-d0e27b7eea-6f820589d0.zip/node_modules/@abp/ng.schematics/",\
           "packageDependencies": [\
-            ["@abp/ng.schematics", "npm:8.0.4"],\
+            ["@abp/ng.schematics", "npm:8.1.1"],\
             ["@angular-devkit/core", "virtual:8396500a47c70db51f82e3cf237bf65a88b6ab80aca02b427d66c990ada71bd88f5f88fa0557b8004b5bd440781b3f566eb2b9c1b1eaeb0f86f1a5fc4a88b927#npm:16.2.12"],\
             ["@angular-devkit/schematics", "npm:16.2.12"],\
             ["@angular/cli", "npm:16.2.12"],\
@@ -262,49 +239,49 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.setting-management", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.setting-management-npm-8.0.4-d3fad7b38f-782fde5ef3.zip/node_modules/@abp/ng.setting-management/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.setting-management-npm-8.1.1-7b0e6debab-027c5b69fd.zip/node_modules/@abp/ng.setting-management/",\
           "packageDependencies": [\
-            ["@abp/ng.setting-management", "npm:8.0.4"],\
-            ["@abp/ng.components", "virtual:2eb4d1223e5981f0d7f1173c823f304452fe8d6af2fcbe2c099148c6f9e15c5d5c5cae078bc353dbf87885705a3d43d3902403b99dd11a5b1f712037f22d64a5#npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.setting-management", "npm:8.1.1"],\
+            ["@abp/ng.components", "virtual:4ab8fef6749619747cc73fd6671a623bbcdc9106ec9f681abf86d7e9f06fb4f8986aee9266430d51a624c10ad1dff83e1e9fe5f408638f890360a45aa92cf55e#npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.tenant-management", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.tenant-management-npm-8.0.4-a9d3fb89e1-5ca8ee083e.zip/node_modules/@abp/ng.tenant-management/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.tenant-management-npm-8.1.1-17a1db2359-073e0c8214.zip/node_modules/@abp/ng.tenant-management/",\
           "packageDependencies": [\
-            ["@abp/ng.tenant-management", "npm:8.0.4"],\
-            ["@abp/ng.feature-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.tenant-management", "npm:8.1.1"],\
+            ["@abp/ng.feature-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/ng.theme.lepton-x", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.theme.lepton-x-npm-3.0.4-97b909818b-483ce8f1b8.zip/node_modules/@abp/ng.theme.lepton-x/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.theme.lepton-x-npm-3.1.1-b71d90bf93-a490e7adb4.zip/node_modules/@abp/ng.theme.lepton-x/",\
           "packageDependencies": [\
-            ["@abp/ng.theme.lepton-x", "npm:3.0.4"]\
+            ["@abp/ng.theme.lepton-x", "npm:3.1.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@abp-ng.theme.lepton-x-virtual-c59e13af33/0/cache/@abp-ng.theme.lepton-x-npm-3.0.4-97b909818b-483ce8f1b8.zip/node_modules/@abp/ng.theme.lepton-x/",\
+        ["virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@abp-ng.theme.lepton-x-virtual-9631492358/0/cache/@abp-ng.theme.lepton-x-npm-3.1.1-b71d90bf93-a490e7adb4.zip/node_modules/@abp/ng.theme.lepton-x/",\
           "packageDependencies": [\
-            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.0.4"],\
+            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.1.1"],\
             ["@abp/ng.account.core", null],\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["@types/abp__ng.account.core", null],\
             ["@types/abp__ng.core", null],\
             ["@types/abp__ng.theme.shared", null],\
-            ["@volo/abp.ng.lepton-x.core", "virtual:c59e13af3331e27edc2c7257abd256b941d12d881285999ca85ee9803f0b1b46cb83da117ef6fb7e77767c7b8dc6abaa28ec9bceb6dfb4b7d5c1d31a493c16ef#npm:3.0.4"],\
-            ["@volo/ngx-lepton-x.lite", "npm:3.0.4"],\
+            ["@volo/abp.ng.lepton-x.core", "virtual:96314923587c87ab193e6ef27006db09edb02d64c1922b316f3764b8742d965c06d8a92682cd54d94fcb8dc605885809ba149cd21216e8dc2c54ac7f8a500393#npm:3.1.1"],\
+            ["@volo/ngx-lepton-x.lite", "npm:3.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "packagePeers": [\
@@ -319,27 +296,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@abp/ng.theme.shared", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-ng.theme.shared-npm-8.0.4-b3909f220e-ebd5dc8e4b.zip/node_modules/@abp/ng.theme.shared/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-ng.theme.shared-npm-8.1.1-0d845c5c86-c93616699d.zip/node_modules/@abp/ng.theme.shared/",\
           "packageDependencies": [\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
-            ["@abp/ng.core", "npm:8.0.4"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
             ["@fortawesome/fontawesome-free", "npm:5.15.4"],\
-            ["@ng-bootstrap/ng-bootstrap", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:16.0.0"],\
-            ["@ngx-validate/core", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:0.2.0"],\
+            ["@ng-bootstrap/ng-bootstrap", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:16.0.0"],\
+            ["@ngx-validate/core", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:0.2.0"],\
             ["@popperjs/core", "npm:2.11.8"],\
-            ["@swimlane/ngx-datatable", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:20.1.0"],\
-            ["bootstrap", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:5.3.3"],\
+            ["@swimlane/ngx-datatable", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:20.1.0"],\
+            ["bootstrap", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:5.3.3"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@abp/utils", [\
-        ["npm:8.0.4", {\
-          "packageLocation": "./.yarn/cache/@abp-utils-npm-8.0.4-bd93d99ac9-5f6320e7d1.zip/node_modules/@abp/utils/",\
+        ["npm:8.1.1", {\
+          "packageLocation": "./.yarn/cache/@abp-utils-npm-8.1.1-a4d4f30f3c-65c033d9a6.zip/node_modules/@abp/utils/",\
           "packageDependencies": [\
-            ["@abp/utils", "npm:8.0.4"],\
+            ["@abp/utils", "npm:8.1.1"],\
             ["just-compare", "npm:2.3.0"]\
           ],\
           "linkType": "HARD"\
@@ -905,10 +882,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.2.1", {\
-          "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-32eb2799fe/0/cache/@angular-cdk-npm-17.2.1-85ea130e59-d7a1323f87.zip/node_modules/@angular/cdk/",\
+        ["virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/@angular-cdk-virtual-efed14fa8b/0/cache/@angular-cdk-npm-17.2.1-85ea130e59-d7a1323f87.zip/node_modules/@angular/cdk/",\
           "packageDependencies": [\
-            ["@angular/cdk", "virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.2.1"],\
+            ["@angular/cdk", "virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.2.1"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@types/angular__common", null],\
@@ -1284,10 +1261,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@ant-design-icons-angular-virtual-c94df19a51/0/cache/@ant-design-icons-angular-npm-17.0.0-21bd367f0e-18f3d7aade.zip/node_modules/@ant-design/icons-angular/",\
+        ["virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@ant-design-icons-angular-virtual-746fd11a25/0/cache/@ant-design-icons-angular-npm-17.0.0-21bd367f0e-18f3d7aade.zip/node_modules/@ant-design/icons-angular/",\
           "packageDependencies": [\
-            ["@ant-design/icons-angular", "virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.0.0"],\
+            ["@ant-design/icons-angular", "virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.0.0"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/platform-browser", null],\
@@ -4387,10 +4364,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:16.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@ng-bootstrap-ng-bootstrap-virtual-a483641118/0/cache/@ng-bootstrap-ng-bootstrap-npm-16.0.0-02a19ab30a-5544765cfe.zip/node_modules/@ng-bootstrap/ng-bootstrap/",\
+        ["virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:16.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@ng-bootstrap-ng-bootstrap-virtual-c74a876d39/0/cache/@ng-bootstrap-ng-bootstrap-npm-16.0.0-02a19ab30a-5544765cfe.zip/node_modules/@ng-bootstrap/ng-bootstrap/",\
           "packageDependencies": [\
-            ["@ng-bootstrap/ng-bootstrap", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:16.0.0"],\
+            ["@ng-bootstrap/ng-bootstrap", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:16.0.0"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/forms", null],\
@@ -4421,10 +4398,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:16.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/@ng-bootstrap-ng-bootstrap-virtual-41cba225a6/0/cache/@ng-bootstrap-ng-bootstrap-npm-16.0.0-02a19ab30a-5544765cfe.zip/node_modules/@ng-bootstrap/ng-bootstrap/",\
+        ["virtual:6734a8169ef0367408f88bfe03d0af53a1d2f69cca2fa3ba2f5f827aea049875639b8bdea931fde7e17925989bdefd05d7301f25a898ee24f6b053d874fe29c0#npm:16.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@ng-bootstrap-ng-bootstrap-virtual-2dd64d8b76/0/cache/@ng-bootstrap-ng-bootstrap-npm-16.0.0-02a19ab30a-5544765cfe.zip/node_modules/@ng-bootstrap/ng-bootstrap/",\
           "packageDependencies": [\
-            ["@ng-bootstrap/ng-bootstrap", "virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:16.0.0"],\
+            ["@ng-bootstrap/ng-bootstrap", "virtual:6734a8169ef0367408f88bfe03d0af53a1d2f69cca2fa3ba2f5f827aea049875639b8bdea931fde7e17925989bdefd05d7301f25a898ee24f6b053d874fe29c0#npm:16.0.0"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/forms", null],\
@@ -4494,10 +4471,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:0.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/@ngx-validate-core-virtual-43eed4a41d/0/cache/@ngx-validate-core-npm-0.2.0-6574373745-744c021b51.zip/node_modules/@ngx-validate/core/",\
+        ["virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:0.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/@ngx-validate-core-virtual-bb853f92d3/0/cache/@ngx-validate-core-npm-0.2.0-6574373745-744c021b51.zip/node_modules/@ngx-validate/core/",\
           "packageDependencies": [\
-            ["@ngx-validate/core", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:0.2.0"],\
+            ["@ngx-validate/core", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:0.2.0"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/forms", null],\
@@ -5041,10 +5018,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:20.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@swimlane-ngx-datatable-virtual-f0154e61fc/0/cache/@swimlane-ngx-datatable-npm-20.1.0-7259bc432e-ecc6ddab9e.zip/node_modules/@swimlane/ngx-datatable/",\
+        ["virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:20.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@swimlane-ngx-datatable-virtual-9796cb7287/0/cache/@swimlane-ngx-datatable-npm-20.1.0-7259bc432e-ecc6ddab9e.zip/node_modules/@swimlane/ngx-datatable/",\
           "packageDependencies": [\
-            ["@swimlane/ngx-datatable", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:20.1.0"],\
+            ["@swimlane/ngx-datatable", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:20.1.0"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/platform-browser", null],\
@@ -5863,20 +5840,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@volo/abp.ng.lepton-x.core", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@volo-abp.ng.lepton-x.core-npm-3.0.4-7d15288dc5-55f891925c.zip/node_modules/@volo/abp.ng.lepton-x.core/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@volo-abp.ng.lepton-x.core-npm-3.1.1-c3c381db66-cf4277cd92.zip/node_modules/@volo/abp.ng.lepton-x.core/",\
           "packageDependencies": [\
-            ["@volo/abp.ng.lepton-x.core", "npm:3.0.4"]\
+            ["@volo/abp.ng.lepton-x.core", "npm:3.1.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:c59e13af3331e27edc2c7257abd256b941d12d881285999ca85ee9803f0b1b46cb83da117ef6fb7e77767c7b8dc6abaa28ec9bceb6dfb4b7d5c1d31a493c16ef#npm:3.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@volo-abp.ng.lepton-x.core-virtual-251c66be2e/0/cache/@volo-abp.ng.lepton-x.core-npm-3.0.4-7d15288dc5-55f891925c.zip/node_modules/@volo/abp.ng.lepton-x.core/",\
+        ["virtual:96314923587c87ab193e6ef27006db09edb02d64c1922b316f3764b8742d965c06d8a92682cd54d94fcb8dc605885809ba149cd21216e8dc2c54ac7f8a500393#npm:3.1.1", {\
+          "packageLocation": "./.yarn/__virtual__/@volo-abp.ng.lepton-x.core-virtual-524b401383/0/cache/@volo-abp.ng.lepton-x.core-npm-3.1.1-c3c381db66-cf4277cd92.zip/node_modules/@volo/abp.ng.lepton-x.core/",\
           "packageDependencies": [\
-            ["@volo/abp.ng.lepton-x.core", "virtual:c59e13af3331e27edc2c7257abd256b941d12d881285999ca85ee9803f0b1b46cb83da117ef6fb7e77767c7b8dc6abaa28ec9bceb6dfb4b7d5c1d31a493c16ef#npm:3.0.4"],\
+            ["@volo/abp.ng.lepton-x.core", "virtual:96314923587c87ab193e6ef27006db09edb02d64c1922b316f3764b8742d965c06d8a92682cd54d94fcb8dc605885809ba149cd21216e8dc2c54ac7f8a500393#npm:3.1.1"],\
             ["@abp/ng.components", null],\
             ["@types/abp__ng.components", null],\
-            ["@volo/ngx-lepton-x.core", "virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:3.0.4"],\
+            ["@volo/ngx-lepton-x.core", "npm:3.1.1"],\
             ["tslib", "npm:2.6.2"]\
           ],\
           "packagePeers": [\
@@ -5887,61 +5864,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@volo/ngx-lepton-x.core", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@volo-ngx-lepton-x.core-npm-3.0.4-f46d76bc65-aec9cd1b8f.zip/node_modules/@volo/ngx-lepton-x.core/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@volo-ngx-lepton-x.core-npm-3.1.1-5296720711-4226371d12.zip/node_modules/@volo/ngx-lepton-x.core/",\
           "packageDependencies": [\
-            ["@volo/ngx-lepton-x.core", "npm:3.0.4"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:3.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/@volo-ngx-lepton-x.core-virtual-73d9c5f0c3/0/cache/@volo-ngx-lepton-x.core-npm-3.0.4-f46d76bc65-aec9cd1b8f.zip/node_modules/@volo/ngx-lepton-x.core/",\
-          "packageDependencies": [\
-            ["@volo/ngx-lepton-x.core", "virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:3.0.4"],\
-            ["@angular/common", null],\
-            ["@angular/core", null],\
-            ["@angular/forms", null],\
-            ["@angular/platform-browser", null],\
-            ["@angular/platform-browser-dynamic", null],\
-            ["@angular/router", null],\
-            ["@types/angular__common", null],\
-            ["@types/angular__core", null],\
-            ["@types/angular__forms", null],\
-            ["@types/angular__platform-browser", null],\
-            ["@types/angular__platform-browser-dynamic", null],\
-            ["@types/angular__router", null],\
-            ["@types/rxjs", null],\
+            ["@volo/ngx-lepton-x.core", "npm:3.1.1"],\
             ["perfect-scrollbar", "npm:1.5.5"],\
-            ["rxjs", null],\
             ["ts-toolbelt", "npm:6.15.5"],\
             ["tslib", "npm:2.6.2"]\
-          ],\
-          "packagePeers": [\
-            "@angular/common",\
-            "@angular/core",\
-            "@angular/forms",\
-            "@angular/platform-browser-dynamic",\
-            "@angular/platform-browser",\
-            "@angular/router",\
-            "@types/angular__common",\
-            "@types/angular__core",\
-            "@types/angular__forms",\
-            "@types/angular__platform-browser-dynamic",\
-            "@types/angular__platform-browser",\
-            "@types/angular__router",\
-            "@types/rxjs",\
-            "rxjs"\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@volo/ngx-lepton-x.lite", [\
-        ["npm:3.0.4", {\
-          "packageLocation": "./.yarn/cache/@volo-ngx-lepton-x.lite-npm-3.0.4-b474f01c05-48f0bd957a.zip/node_modules/@volo/ngx-lepton-x.lite/",\
+        ["npm:3.1.1", {\
+          "packageLocation": "./.yarn/cache/@volo-ngx-lepton-x.lite-npm-3.1.1-6734a8169e-8c2453d36e.zip/node_modules/@volo/ngx-lepton-x.lite/",\
           "packageDependencies": [\
-            ["@volo/ngx-lepton-x.lite", "npm:3.0.4"],\
-            ["@ng-bootstrap/ng-bootstrap", "virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:16.0.0"],\
-            ["@volo/ngx-lepton-x.core", "virtual:b474f01c05a94ef05ef98dde4ec4feb8c89e2f3934c2f9d919ad131086a1ad97884cc5d7ff4d5bca510146562bb974218f3490f93c061991a6ad456a1f4f4d23#npm:3.0.4"],\
+            ["@volo/ngx-lepton-x.lite", "npm:3.1.1"],\
+            ["@ng-bootstrap/ng-bootstrap", "virtual:6734a8169ef0367408f88bfe03d0af53a1d2f69cca2fa3ba2f5f827aea049875639b8bdea931fde7e17925989bdefd05d7301f25a898ee24f6b053d874fe29c0#npm:16.0.0"],\
+            ["@volo/ngx-lepton-x.core", "npm:3.1.1"],\
             ["bootstrap-icons", "npm:1.7.2"],\
             ["tslib", "npm:2.6.2"]\
           ],\
@@ -6172,16 +6112,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["SqlyAI", "workspace:."],\
-            ["@abp/ng.account", "npm:8.0.4"],\
-            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.0.4"],\
-            ["@abp/ng.core", "npm:8.0.4"],\
-            ["@abp/ng.identity", "npm:8.0.4"],\
-            ["@abp/ng.oauth", "npm:8.0.4"],\
-            ["@abp/ng.schematics", "npm:8.0.4"],\
-            ["@abp/ng.setting-management", "npm:8.0.4"],\
-            ["@abp/ng.tenant-management", "npm:8.0.4"],\
-            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.0.4"],\
-            ["@abp/ng.theme.shared", "npm:8.0.4"],\
+            ["@abp/ng.account", "npm:8.1.1"],\
+            ["@abp/ng.components", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:8.1.1"],\
+            ["@abp/ng.core", "npm:8.1.1"],\
+            ["@abp/ng.identity", "npm:8.1.1"],\
+            ["@abp/ng.oauth", "npm:8.1.1"],\
+            ["@abp/ng.schematics", "npm:8.1.1"],\
+            ["@abp/ng.setting-management", "npm:8.1.1"],\
+            ["@abp/ng.tenant-management", "npm:8.1.1"],\
+            ["@abp/ng.theme.lepton-x", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:3.1.1"],\
+            ["@abp/ng.theme.shared", "npm:8.1.1"],\
             ["@angular-devkit/build-angular", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.10"],\
             ["@angular-eslint/builder", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.1"],\
             ["@angular-eslint/eslint-plugin", "virtual:7422cfb9dea19444298d17df7171e307d8b67ad1fad11064c1d6f8ba569430818ba64de488aaedaa4d7202128401a605c59f7ae5f4b5a0a9d0f01b8dab1ba3c5#npm:17.0.1"],\
@@ -6449,17 +6389,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["angular-oauth2-oidc", [\
-        ["npm:15.0.1", {\
-          "packageLocation": "./.yarn/cache/angular-oauth2-oidc-npm-15.0.1-3dddd43eb9-c9e3820c6f.zip/node_modules/angular-oauth2-oidc/",\
+        ["npm:17.0.2", {\
+          "packageLocation": "./.yarn/cache/angular-oauth2-oidc-npm-17.0.2-ef71d1f322-9b0a33f582.zip/node_modules/angular-oauth2-oidc/",\
           "packageDependencies": [\
-            ["angular-oauth2-oidc", "npm:15.0.1"]\
+            ["angular-oauth2-oidc", "npm:17.0.2"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:362de01c9c7f1de9ad0f7a7f185579f2718c7a0e3a96532413a5abbbf849c3f745289e8a81609e24a6a8482e44b80494953f57224a146e65c723bb448c6b6788#npm:15.0.1", {\
-          "packageLocation": "./.yarn/__virtual__/angular-oauth2-oidc-virtual-b018bfb671/0/cache/angular-oauth2-oidc-npm-15.0.1-3dddd43eb9-c9e3820c6f.zip/node_modules/angular-oauth2-oidc/",\
+        ["virtual:827f9ee4788bb16fe69ea138245edb96a5361c8ac5a5ac928321791294fcef897e48f570f673e0bf261fae5fc8dd5a364ce69fd5a23427a35af2f82ae4bb81a7#npm:17.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/angular-oauth2-oidc-virtual-7389c6eb99/0/cache/angular-oauth2-oidc-npm-17.0.2-ef71d1f322-9b0a33f582.zip/node_modules/angular-oauth2-oidc/",\
           "packageDependencies": [\
-            ["angular-oauth2-oidc", "virtual:362de01c9c7f1de9ad0f7a7f185579f2718c7a0e3a96532413a5abbbf849c3f745289e8a81609e24a6a8482e44b80494953f57224a146e65c723bb448c6b6788#npm:15.0.1"],\
+            ["angular-oauth2-oidc", "virtual:827f9ee4788bb16fe69ea138245edb96a5361c8ac5a5ac928321791294fcef897e48f570f673e0bf261fae5fc8dd5a364ce69fd5a23427a35af2f82ae4bb81a7#npm:17.0.2"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@types/angular__common", null],\
@@ -6949,10 +6889,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:5.3.3", {\
-          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-620f472b36/0/cache/bootstrap-npm-5.3.3-da08e2f0fe-537b68db30.zip/node_modules/bootstrap/",\
+        ["virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:5.3.3", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-9850d907a9/0/cache/bootstrap-npm-5.3.3-da08e2f0fe-537b68db30.zip/node_modules/bootstrap/",\
           "packageDependencies": [\
-            ["bootstrap", "virtual:b3909f220e21b14ac7b683a67521088fa5c51694825e9a65ad050dd11f81de2bada81300b98b75aab51d3fee40d050d00044dc9761ae79b693173ae4b063e30b#npm:5.3.3"],\
+            ["bootstrap", "virtual:0d845c5c869e3ee16a6acdbe7ad0b1413c6674b3fb751b0d0286788705c513831d687695fc5337ab67be1e51e350b7d4978f54330fb50272ce18c19ef810733b#npm:5.3.3"],\
             ["@popperjs/core", "npm:2.11.8"],\
             ["@types/popperjs__core", null]\
           ],\
@@ -11685,18 +11625,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:8ecd5982f12e986d04ad9e34457b0299b9a6fca8511efc09f0ecb777ca52df6bf902a46f33a7c62cc410e069dd8609fd4cbee9d7529c4c0a2c2bb187dd7af5c4#npm:17.2.0", {\
-          "packageLocation": "./.yarn/__virtual__/ng-zorro-antd-virtual-cfa6927fb7/0/cache/ng-zorro-antd-npm-17.2.0-2a85123028-eb5a6a8969.zip/node_modules/ng-zorro-antd/",\
+        ["virtual:a65a174fd80f74b09dc1197859154d4c7f37e48014e529fd99d5aa3671343350077d9094b083759fd1875089250f73b563479d21f9b2f1d6ee97e8b8c3d43da7#npm:17.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/ng-zorro-antd-virtual-1325f789c1/0/cache/ng-zorro-antd-npm-17.2.0-2a85123028-eb5a6a8969.zip/node_modules/ng-zorro-antd/",\
           "packageDependencies": [\
-            ["ng-zorro-antd", "virtual:8ecd5982f12e986d04ad9e34457b0299b9a6fca8511efc09f0ecb777ca52df6bf902a46f33a7c62cc410e069dd8609fd4cbee9d7529c4c0a2c2bb187dd7af5c4#npm:17.2.0"],\
+            ["ng-zorro-antd", "virtual:a65a174fd80f74b09dc1197859154d4c7f37e48014e529fd99d5aa3671343350077d9094b083759fd1875089250f73b563479d21f9b2f1d6ee97e8b8c3d43da7#npm:17.2.0"],\
             ["@angular/animations", null],\
-            ["@angular/cdk", "virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.2.1"],\
+            ["@angular/cdk", "virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.2.1"],\
             ["@angular/common", null],\
             ["@angular/core", null],\
             ["@angular/forms", null],\
             ["@angular/platform-browser", null],\
             ["@angular/router", null],\
-            ["@ant-design/icons-angular", "virtual:cfa6927fb7c0932474741a35a6457710d62d653ea417c566fa03d5e5d502c02a7e538fc7b4445e8bb220b5ed20b67f1fd37a2e901e3c73b9736f42a9ade76f6b#npm:17.0.0"],\
+            ["@ant-design/icons-angular", "virtual:1325f789c1b1489c7facbac2dec2329e3243aaa4a01cb95d74749eb032007cddb7e4f9635497d426cd27f9fa10fe2979257f442bae67f1bb06d698798928fe45#npm:17.0.0"],\
             ["@types/angular__animations", null],\
             ["@types/angular__common", null],\
             ["@types/angular__core", null],\
